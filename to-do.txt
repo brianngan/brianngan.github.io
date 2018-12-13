@@ -1,0 +1,7 @@
+Set up domain name. Point it to the github name server
+
+Link to wordpress api
+https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+api
+https://public-api.wordpress.com/rest/v1.1/sites/brianngan001.wordpress.com/posts/31
