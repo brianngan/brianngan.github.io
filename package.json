@@ -1,0 +1,22 @@
+{
+  "name": "brianngan",
+  "version": "1.0.0",
+  "description": "For personal projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianngan/brianngan.github.io.git"
+  },
+  "author": "Brian Ngan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/brianngan/brianngan.github.io/issues"
+  },
+  "homepage": "https://github.com/brianngan/brianngan.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
