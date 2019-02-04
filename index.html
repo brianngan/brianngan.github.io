@@ -53,17 +53,21 @@
     <div>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
+          <h5 id=class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
     </div>
       
+    <div id="post"><h2>Let jQuery AJAX Change This Text</h2></div>
 
+    <button>Get External Content</button>
+    
   </body>
 
 
 
+  
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -72,3 +76,10 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+    $("button").click(function(){
+      $.ajax({url: "https://public-api.wordpress.com/rest/v1.1/sites/milkcoffeenosugar.wordpress.com/posts/16", success: function(result){
+        $("#post").html(result);
+      }});
+    });
+    </script>
