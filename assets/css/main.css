@@ -5,8 +5,16 @@
     }
   }
 
+@font-face {
+  font-display: block;
+}
+
+.navbar{
+  margin-top: 50px;
+}
+
 .navbar-text {
-   align-items: flex-start;
+  align-items: flex-start;
 }
 
 .display {
@@ -21,11 +29,14 @@ a:visited {
     color: #873582;
 }
 
-.image {
-    max-width: 500px;
-    height: 100px;
+img {
+    max-height: 100%;
+    max-width: 100%;
  }
 
+.image{
+  margin-top: 30px;
+}
     
 /* CSS For Reveal Text */
 body {
