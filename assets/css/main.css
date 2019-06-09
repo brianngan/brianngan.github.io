@@ -10,15 +10,22 @@
 }
 
 a {
-  color: #27106B;
+  color: #242327;
 }
 a:visited {
-  color: #873582;
+  color: #242327;
 }
+
+p
 
 .img{
   width: 30%;
   object-fit: cover;
+}
+
+.gif{
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 /* Navbar Start */
@@ -63,7 +70,6 @@ border-radius: 0px;
 
 .btn:active {
   background-position: left top;
-
 }
 
 /* Reveal Text Start */
