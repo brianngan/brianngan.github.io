@@ -9,36 +9,64 @@
   font-display: block;
 }
 
+a {
+  color: #27106B;
+}
+a:visited {
+  color: #873582;
+}
+
+.img{
+  width: 30%;
+  object-fit: cover;
+}
+
+/* Navbar Start */
 .navbar{
   margin-top: 50px;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
 }
 
 .navbar-text {
   align-items: flex-start;
 }
+/* Navbar End  */
 
-.display {
-    font-family: 'Libre Baskerville', serif;
-    font-style: italic;
+/* Card Start */
+.card{
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
 }
 
-a {
-    color: #27106B;
+.card-img-top {
+width: 100%;
+height: 250px;
+object-fit: cover;
+border-radius: 0px;
 }
-a:visited {
-    color: #873582;
+/* Card End */
+ 
+.btn {
+  background: linear-gradient(to right, #242327 50%,white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  border: 0px;
+  border-radius: 0px;
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
- }
-
-.image{
-  margin-top: 30px;
+.btn:hover {
+  background-position: left bottom;
 }
-    
-/* CSS For Reveal Text */
+
+.btn:active {
+  background-position: left top;
+
+}
+
+/* Reveal Text Start */
 body {
   display: block;
   background-color: #F9F8F6;
@@ -108,3 +136,8 @@ body {
     transform: scaleX(0);
   }
 }
+/* Reveal Text Start */
+
+  img {
+    height: 50vh;
+} 
