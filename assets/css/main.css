@@ -11,6 +11,7 @@
 
 a {
   color: #242327;
+
 }
 a:visited {
   color: #242327;
@@ -62,6 +63,9 @@ border-radius: 0px;
   transition: all .5s ease-out;
   border: 0px;
   border-radius: 0px;
+  color: #242327;
+  text-decoration-line: none;
+  
 }
 
 .btn:hover {
