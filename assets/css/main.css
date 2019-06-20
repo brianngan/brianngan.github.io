@@ -8,8 +8,17 @@
   @media (min-width: 768px) {
     p {
       font-size: 24px;
-      line-height: 2;
-      margin-top: 50px;
+      line-height: 1.6;
+      margin-top: 30px;
+    }
+
+    li {
+      font-size: 24px;
+      line-height: 1.6;
+    }
+
+    h6 {
+      font-size: 32px;
     }
        
   }
@@ -43,7 +52,7 @@ a.disabled {
 .img-text-block {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 2%;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -174,8 +183,18 @@ body {
     transform: scaleX(0);
   }
 }
-/* Reveal Text Start */
+/* Reveal Text End */
 
-  img {
-    height: 50vh;
-} 
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
