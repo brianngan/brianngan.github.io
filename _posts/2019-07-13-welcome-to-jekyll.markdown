@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: default
+title:  Test Article Welcome to Jekyll!
 date:   2019-07-13 19:58:45 +0800
 categories: jekyll update
 ---
