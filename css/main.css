@@ -4,23 +4,32 @@
 }
 
 display {
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 36px;
+    line-height: 49px;
     font-weight: 800;
 }
 
-.navbar, .section-center, .footer {
+.navbar, .section-center, .footer-width {
     margin-right: auto;
     margin-left: auto;
     max-width: 1080px;
 }
 
-.navbar {
-    
-    padding-top: 20px;
-    padding-bottom: 20px;
+.white {
+    color: white;
 }
 
-.navbar-item {
-    font-weight: 800;
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav-button {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: black !important;
+    color: white;
 }
