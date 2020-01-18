@@ -1,0 +1,26 @@
+* {
+    font-family: "nunito", sans-serif;
+
+}
+
+display {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 800;
+}
+
+.navbar, .section-center, .footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1080px;
+}
+
+.navbar {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-item {
+    font-weight: 800;
+}
