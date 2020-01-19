@@ -101,6 +101,10 @@ a {
     border-radius: 8px;
 }
 
+.container{
+    width: 100%;
+}
+
 div.on-hover-show {
     display: none;
     
