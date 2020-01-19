@@ -1,35 +1,119 @@
 * {
-    font-family: "nunito", sans-serif;
+    font-family: "nunito", sans-serif !important;
 
 }
 
-display {
-    font-size: 36px;
-    line-height: 49px;
+.navbar-brand {
+    font-size: 2.75em;
+    line-height: 1.25em;
     font-weight: 800;
+    padding-left: 10px
 }
 
-.navbar, .section-center, .footer-width {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1080px;
-}
-
-.white {
-    color: white;
+a.logo {
+    color: black;
 }
 
 .navbar {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5em;
+    padding-bottom: 5em;  
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-button {
-    font-size: 20px !important;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .footer {
-    background-color: black !important;
+    background-color: black;
+}
+
+.footer-style {
     color: white;
+}
+
+a.footer-style:hover {
+    color: #009FD1;
+}
+
+.section {
+    display: flex;
+    min-height: 100vh;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+    padding-bottom: .75em;
+    color: black;
+    line-height: 1.1em;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 800;
+
+    padding-bottom: 0.5em;
+}
+
+.subtle {
+    color: #A2A2A2;
+    font-weight: 400;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  } 
+
+p, span, a, li, br, code, strong, h4{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    color: black;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    color: #009FD1;
+}
+
+.card-index {
+    right:24px;
+    box-shadow: none;
+    border-radius: 8px;
+}
+
+div.on-hover-show {
+    display: none;
+    
+}
+
+div.card-index:hover + div.on-hover-show {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.marquee {
+    animation: marquee 15s linear infinite;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    2% { left: 2%; }
+  }
+
+
+div.card-index:hover {
+    background-color: #f5f5f5;
 }

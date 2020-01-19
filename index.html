@@ -6,12 +6,23 @@ layout: default
 title: Brian Ngan
 
 ---
-<h1>Brian Ngan</h1>
-<ul class="posts">
+<h1>
+  Posts
+</h1>
+
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><br>       
+  <div class="card card-index" onclick="window.location.href = '{{ post.url }}';">
+    <div class="card-content">  
+      <h4>{{ post.title }} 
+        <!-- <a href="{{ post.url }}">Read article.</a><br> -->
+      </h4> 
       {{ post.excerpt }}
-    </li>
-    <br>
+      <span class="subtle">{{ post.date | date_to_string }}</span>
+    </div>  
+  </div>
+  <div class="on-hover-show marquee">
+      Read Article.
+  </div>
+
+  <br>
   {% endfor %}
-</ul>
