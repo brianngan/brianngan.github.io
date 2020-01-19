@@ -67,6 +67,9 @@ h4 {
     font-weight: 800;
 
     padding-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    color: black;
+    text-align: justify;
 }
 
 .subtle {
@@ -80,7 +83,7 @@ body {
     flex-direction: column;
   } 
 
-p, span, a, li, br, code, strong, h4{
+p, span, a, li, br, code, strong{
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 0.5em;
