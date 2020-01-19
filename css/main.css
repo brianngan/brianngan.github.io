@@ -48,9 +48,18 @@ a.footer-style:hover {
 h1 {
     font-size: 4em;
     font-weight: 600;
+    padding-top: 1.5em;
     padding-bottom: .75em;
     color: black;
     line-height: 1.1em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: .25em;
+    color: black;
+    line-height: 1.1em;    
 }
 
 h4 {
