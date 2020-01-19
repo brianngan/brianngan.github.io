@@ -4,7 +4,7 @@ title:   The Way Of Zen
 date:   2020-01-19 23:00:00 +0800
 categories: zen
 ---
-## One: The Philosophy of the Tao
+One: The Philosophy of the Tao
 
 ## Spoken Language as an Accepted Convention
 
