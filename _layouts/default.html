@@ -9,20 +9,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" href="/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/98d04c3921.js" crossorigin="anonymous"></script>
-   
+    
   </head>
+  
+</head>
 <body>
-        {% include nav-bar.html %}
-        <section class="section">
-          <div class="container">
-            <div class="columns">
-              <div class="column is-half is-gapless">
-                  {{ content }}
-              </div>
-            </div>
-          </div>
-        </section>
-        {% include footer.html %}
-        </body>
-      </html>
+  {% include nav-bar.html %}
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-gapless">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+
+  <script src="_site/assets/js/hideme.js"></script>
+</body>
+
+</html>

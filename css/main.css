@@ -3,15 +3,12 @@
 
 }
 
-.navbar-brand {
+a.logo {
+    color: black;
     font-size: 2.75em;
     line-height: 1.25em;
     font-weight: 800;
-    padding-left: 10px
-}
-
-a.logo {
-    color: black;
+    padding: 12px
 }
 
 .navbar {
@@ -19,11 +16,30 @@ a.logo {
     padding-bottom: 5em;  
     display: flex;
     flex-direction: row;
+    text-align: right;
 }
 
-.nav-button {
+.navbar-item {
     font-size: 1.5em;
     font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+
+#navMenu {
+    box-shadow: none;
+    position: absolute;
+    right: 0%;
+}
+
+.navbar-burger {
+    height: inherit;
+    width: 5rem;
+}
+
+span.burger-line {
+    padding-bottom: 0.1em;
+    border-radius: 5px;
 }
 
 .footer {
@@ -102,6 +118,11 @@ a {
     right:24px;
     box-shadow: none;
     border-radius: 8px;
+}
+
+.hideme
+{
+    opacity:0;
 }
 
 .container{
