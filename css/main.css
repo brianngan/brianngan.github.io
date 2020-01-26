@@ -1,3 +1,4 @@
+
 * {
     font-family: "nunito", sans-serif !important;
 
@@ -73,9 +74,19 @@ h1 {
 h2 {
     font-size: 2em;
     font-weight: 600;
+    padding-top: 1em;
     padding-bottom: .25em;
     color: black;
     line-height: 1.1em;    
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: .25em;
+    color: black;
+    line-height: 1.1em;  
 }
 
 h4 {
@@ -88,6 +99,27 @@ h4 {
     text-align: justify;
 }
 
+pre.highlight {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+    background-color: #F9F9F9;
+}
+
+div.highlight {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+span.subtle {
+
+    padding: 10px;
+}
+
 .subtle {
     color: #A2A2A2;
     font-weight: 400;
@@ -98,6 +130,36 @@ body {
     display: flex;
     flex-direction: column;
   } 
+
+blockquote {
+background: #F9F9F9;
+border-left: 5px solid black;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 1.5em 20px;
+quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+color: #black;
+content: open-quote;
+font-size: 3em;
+line-height: 0.1em;
+margin-right: 0.25em;
+vertical-align: -0.4em;
+}
+blockquote p {
+display: inline;
+  }
+
+ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+ol {
+    padding-left: 30px;
+}
 
 p, span, a, li, br, code, strong{
     font-size: 18px;
@@ -118,6 +180,11 @@ a {
     right:24px;
     box-shadow: none;
     border-radius: 8px;
+    padding: 24px;
+}
+
+.card-content{
+    padding: 0;
 }
 
 .hideme
@@ -155,3 +222,16 @@ div.card-index:hover + div.on-hover-show {
 div.card-index:hover {
     background-color: #f5f5f5;
 }
+
+span.post-tag{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: A2A2A2;
+
+    color: black; 
+}
+
+/* span.zen-style {
+    background-color: Black;
+    color: white; 
+} */

@@ -12,11 +12,13 @@ title: Brian Ngan
 
   {% for post in site.posts %}
   <div class="card card-index" onclick="window.location.href = '{{ post.url }}';">
-    <div class="card-content">  
       <h4>{{ post.title }} 
         <!-- <a href="{{ post.url }}">Read article.</a><br> -->
-      </h4> 
+        </h4> 
+      
+      <div class="card-content">  
       {{ post.excerpt }}
+      <span class="tag post-tag">{{ post.categories}}</span>
       <span class="subtle">{{ post.date | date_to_string }}</span>
     </div>  
   </div>
