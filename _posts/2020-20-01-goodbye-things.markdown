@@ -2,7 +2,7 @@
 layout: posts
 title:  Goodbye, things. On Minimalist Living
 date:   2019-07-13 19:58:45 +0800
-categories: jekyll update
+categories: zen
 ---
 Fumio Sasaki
 
