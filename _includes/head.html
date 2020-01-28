@@ -1,0 +1,50 @@
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142508162-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-142508162-1');
+    </script>
+
+<script type="application/ld+json">
+  { 
+    "@context": "https://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "{{ page.title | jsonify }}",
+    "name": {{ page.title | jsonify }},
+    "alternativeHeadline": "{{ page.title | jsonify }}",
+    "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
+    "genre": "search engine optimization",
+    "keywords": "seo sales b2b", 
+    "wordcount": "1120",
+    "url": "{{ site.url }}{{ page.url }}",
+    "datePublished": {{ page.date | jsonify }},
+    "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+    "description": "We love to do stuff to help people and stuff",
+    "articleBody": {{ page.content | strip_html | jsonify }},
+
+    "author": {
+      "@type": "Person",
+      "name": "Brian Ngan",
+      "givenName": "Brian",
+      "familyName": "Ngan",
+      "email": {{ site.email | jsonify }}
+    }
+  }
+  </script>
+
+
+    <title>Brian Ngan</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
+    
+  </head>
