@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Posts
+  description: Post format for articles
 - type: text
   name: title
-  label: title
+  description: Sentence case please.
+  label: Title
 - type: datetime
   name: date
   label: date
