@@ -20,3 +20,5 @@ fields:
 - type: text
   name: categories
   label: categories
+pages:
+- _posts/building-inwardly.md
