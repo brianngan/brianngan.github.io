@@ -6,8 +6,6 @@ categories: product
 posts: posts
 
 ---
-# Building Inwardly
-
 Building inwardly refers to building internal tools for operations, finance, sales and other peripheral teams to use. My opinion is that there are only a few good reasons to build an internal tool:
 
 > Not having it causes a bottleneck of a revenue channel.  
