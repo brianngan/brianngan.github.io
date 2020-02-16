@@ -3,7 +3,7 @@ date: 2020-02-16T08:08:43.000+00:00
 layout: posts
 title: Building Inwardly
 categories: product
-posts: ''
+posts: posts
 
 ---
 # Building Inwardly
