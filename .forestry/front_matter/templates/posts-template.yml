@@ -3,8 +3,8 @@ label: Posts Template
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: posts
+  name: posts
+  label: layout
   description: Post format for articles
   hidden: false
 - type: text
