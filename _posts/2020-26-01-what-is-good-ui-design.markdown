@@ -1,26 +1,21 @@
 ---
 layout: posts
-title:  What is Good UI Design?
-date:   2020-01-26 19:00:45 +0800
+title: What is Good UI Design?
+date: 2020-01-26T11:00:45.000+00:00
 categories: ux-design
+
 ---
-As a non-design design practitioner (lol.), I get asked from time to time to evaluate designs or to come up with designs of my own. I find it useful to have a general definition of good UI design. And it looks like this:
+When thinking about whether user interaction is good, it helps to keep in mind:
 
->Program Model = User Model ?
+> Does the user interaction resemble the user's mental model of how things work.
 
-The equation is trivially simple: "Is the experience (*program model*) what the user expects (*user model*)?" 
+We are constantly building and updating our mental models of how things should work. In the context of user interaction on mobile or desktop devices, these models are created by our previous experience with other apps and our real-world experience of how a similar task is performed.
 
-For example: in a banking app, a user wants to transfer money. He has a few expectations that serves as his mental model. This model is roughly based on:
-- Similar Experiences: He has used other apps.
-- Real World Experiences: He has gone to a bank to make a transfer.
-  
-This means that the user would have a prior understanding of normal login flows, how a transfer works and key transfer details to fill in. This set the precedence for the level of complexity that a banking app could have. 
+## How can I know the user's mental model?
 
-Everyone has preconceived notions of how things are expected to work. And the more closely that your program represents those expectations, the more comfortable the experience will be.
+We all have very similar mental models. We build it collectively by using the same tools such as Whatsapp, Google search, Amazon, Youtube, Facebook, etc. These shared experiences are what most users have come to expect from a user interaction. A good starting point would be to have a default sensibility of what that similar mental model is like.  
 
-## How Do I Know The User Model?
-
-It turns out that most people share similar models of how software works. Go over to another department and ask people such as the marketing or finance staff. Usually, asking 5 people would uncover the most severe usability issues.
+If you have a prototype on hand, go over to another department and ask people such as the marketing or finance staff. Usually, asking 5 people would uncover the most severe usability issues.
 
 1. Describe the goal of the program.
 2. Describe a task.
@@ -35,4 +30,3 @@ This post is based on a chapter in the book: "User Interface Design For Programm
 > A user interface is well designed when the program behaves exactly how the user thought it would. - Joel Spolsky
 
 ![Mountains](https://source.unsplash.com/6YmzwamGzCg/1600x900)
-
