@@ -21,7 +21,6 @@ fields:
   name: categories
   label: categories
 pages:
-- _posts/2020-02-16-building-inwardly.md
 - _posts/boredom.md
 - _posts/my-ideal-keyboard.md
 - _posts/the-ideal-users-to-design-for.md
