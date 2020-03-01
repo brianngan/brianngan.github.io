@@ -1,12 +1,13 @@
 ---
 layout: posts
-title:  Goodbye, things. On Minimalist Living
-date:   2019-07-13 19:58:45 +0800
+title: Goodbye, things. On Minimalist Living
+date: 2019-07-13T11:58:45.000+00:00
 categories: zen
+
 ---
 Fumio Sasaki
 
-## Why You Should Care
+## Why You Should Care 
 
 Because we have too many things and our relationship to things affect what we pay attention to, what we chase after, and what we spend our time doing.
 
@@ -18,16 +19,16 @@ A minimalist is someone who knows what is truly important to himself. He gives i
 
 ## Methods of Minimalism
 
-1. Reduce things that you have multiples of.
-2. Remove things that you haven’t used in a year.
-3. Remove if you have it for the sake of appearance.
-4. Take photos of things that have sentimental value to you. Then throw it away.
-5. Leave unused storage space empty. Storage is the nest for clutter.
-6. Let go of the idea of someday; the idea that one day you will reuse or fix something. It’s better to cut those ties to your past and focus on today.
-7. Discard things that you have forgotten about.
-Let go of the sunk cost fallacy; of getting your money’s worth.
-8. Avoid the habit of stocking up; keep one spare at most, but balance between storage and stocking need.
-9. Does this object make me happy? Or can I speak passionately about this object?
+ 1. Reduce things that you have multiples of.
+ 2. Remove things that you haven’t used in a year.
+ 3. Remove if you have it for the sake of appearance.
+ 4. Take photos of things that have sentimental value to you. Then throw it away.
+ 5. Leave unused storage space empty. Storage is the nest for clutter.
+ 6. Let go of the idea of someday; the idea that one day you will reuse or fix something. It’s better to cut those ties to your past and focus on today.
+ 7. Discard things that you have forgotten about.
+    Let go of the sunk cost fallacy; of getting your money’s worth.
+ 8. Avoid the habit of stocking up; keep one spare at most, but balance between storage and stocking need.
+ 9. Does this object make me happy? Or can I speak passionately about this object?
 10. Discard it if you have thought of doing it five times.
 
 ## Benefits of Minimalism
@@ -52,6 +53,7 @@ Why we don’t throw things away?
 Gratitude is the only real competition to boredom. It allows a fresh perspective on things when we don’t take them for granted. Contrast to getting bored to an old thing.
 
 Five Reflection Chant:
+
 1. Reflect upon how the food has come before you - how the food might have been grown, prepared and brought to you as a meal
 2. Reflect upon your virtues and conduct. Are you worthy of the meal?
 3. Focus only on the mealin front of you without rushing through it and without thinking of any other thoughts.
