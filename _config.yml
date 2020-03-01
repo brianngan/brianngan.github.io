@@ -31,7 +31,8 @@ plugins:
 
 permalink: /:categories/:title:output_ext
 
-
+exclude:
+  - bulma-brianngan
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
