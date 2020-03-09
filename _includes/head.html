@@ -14,12 +14,12 @@
     </script>
 
 <script type="application/ld+json">
-  { 
+{
     "@context": "https://schema.org", 
     "@type": "BlogPosting",
-    "headline": "{{ page.title | jsonify }}",
+    "headline": {{ page.title | jsonify }},
     "name": {{ page.title | jsonify }},
-    "alternativeHeadline": "{{ page.title | jsonify }}",
+    "alternativeHeadline": {{ page.title | jsonify }},
     "description": {{ page.excerpt | strip_newlines | strip | jsonify }},
     "genre": "search engine optimization",
     "keywords": "seo sales b2b", 
@@ -27,7 +27,7 @@
     "url": "{{ site.url }}{{ page.url }}",
     "datePublished": {{ page.date | jsonify }},
     "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-    "description": "We love to do stuff to help people and stuff",
+    "description": "Brian Ngan Product Manager",
     "articleBody": {{ page.content | strip_html | jsonify }},
 
     "author": {
