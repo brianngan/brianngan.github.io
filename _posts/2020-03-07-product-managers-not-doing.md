@@ -1,6 +1,6 @@
 ---
 date: 2020-03-07T16:45:33.000+00:00
-posts: ''
+posts: posts
 title: 'Good Product Managers: White Space'
 categories: product
 
