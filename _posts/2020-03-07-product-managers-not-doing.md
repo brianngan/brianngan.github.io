@@ -5,7 +5,7 @@ title: 'Good Product Managers: White Space'
 categories: product
 
 ---
-In photography, there is the concept of white space. This is the empty space on a photo that allows for three things: clear composition, breathing room, and subject emphasis.
+White space _(or negative space)_ is a photography term to describe the empty space of a photo. This empty space allows for three things: clear composition, breathing room, and subject emphasis.
 
 In product, the white space is the list of features that a product manager does not build.
 
@@ -13,7 +13,13 @@ In product, the white space is the list of features that a product manager does 
 
 **_Fan Ho_** _via_ [_FanHo-ForgetMeNot.com_]()
 
-# White Space And Problem Solving
+## White Space in Product
+
+Clear composition: Well defined problem to solve and solutions that self-evidently solve them. 
+
+Breathing room: Avoidance of feature creep
+
+Subject emphasis: Single-minded focus in problem-solving.
 
 A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product. 
 
