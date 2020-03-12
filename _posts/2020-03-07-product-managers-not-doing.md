@@ -3,6 +3,7 @@ date: 2020-03-07T16:45:33.000+00:00
 posts: posts
 title: 'Good Product Managers: White Space'
 categories: product
+layout: posts
 
 ---
 White space _(or negative space)_ is a photography term to describe the empty space of a photo. This empty space allows for three things: clear composition, breathing room, and subject emphasis.
