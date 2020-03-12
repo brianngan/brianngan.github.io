@@ -1,13 +1,21 @@
 ---
 date: 2020-03-07T16:45:33.000+00:00
 posts: ''
-title: 'Good Product Managers: Proactive Rejection'
+title: 'Good Product Managers: White Space'
 categories: product
 
 ---
-A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product. ![](/uploads/1ccc3e98f2dac97d4312ea8cca85ccd5.jpg)
+In photography, there is the concept of white space. This is the empty space on a photo that allows for three things: clear composition, breathing room, and subject emphasis.
+
+In product, the white space is the list of features that a product manager does not build.
+
+![](/uploads/1ccc3e98f2dac97d4312ea8cca85ccd5.jpg)
 
 **_Fan Ho_** _via_ [_FanHo-ForgetMeNot.com_]()
+
+# White Space And Problem Solving
+
+A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product. 
 
 In a sense, choosing a correct enough solution in terms of scope and fidelity 
 
