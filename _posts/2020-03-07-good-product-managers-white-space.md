@@ -16,17 +16,17 @@ In product, the white space is the list of features that a product manager does 
 
 ## White Space in Product
 
-Clear composition: Well defined problem to solve and solutions that self-evidently solve them. 
+Clear composition: Well defined problem to solve and solutions that self-evidently solve them.
 
 Breathing room: Avoidance of feature creep
 
 Subject emphasis: Single-minded focus in problem-solving.
 
-A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product. 
+A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product.
 
-In a sense, choosing a correct enough solution in terms of scope and fidelity 
+In a sense, choosing a correct enough solution in terms of scope and fidelity
 
-A big part of the product manager's job is to curate the features that a product builds. This defines how you and the development team spends their time. The general rule is to build good enough features and iterate over time. Implied in this general rule is that there are wrong features that may be built. 
+A big part of the product manager's job is to curate the features that a product builds. This defines how you and the development team spends their time. The general rule is to build good enough features and iterate over time. Implied in this general rule is that there are wrong features that may be built.
 
 I believe that a good product manager should be primarily judged based on his ability to avoid building the wrong things. As product managers, we are uniquely positioned to help decide the right problems to tackle and the right solution (in terms of scope and fidelity) to develop.
 
