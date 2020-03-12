@@ -2,7 +2,8 @@
 date: 2020-03-10 13:40:16 +0000
 posts: ''
 title: 'Kierkegaard: Busyness As A Vice'
-categories: product
+categories: self
+layout: posts
 
 ---
 A reminder on busyness and existence:
