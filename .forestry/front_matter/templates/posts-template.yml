@@ -22,8 +22,8 @@ fields:
   name: categories
   label: Categories
 pages:
-- _posts/2020-03-07-good-product-managers-white-space.md
 - _posts/2020-03-09-the-seo-game.md
+- _posts/2020-03-12-good-product-managers-white-space.md
 - _posts/boredom.md
 - _posts/kierkegaard-busyness-as-a-vice.md
 - _posts/my-ideal-keyboard.md
