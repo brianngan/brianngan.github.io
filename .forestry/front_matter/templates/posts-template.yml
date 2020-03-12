@@ -3,9 +3,9 @@ label: Posts Template
 hide_body: false
 fields:
 - type: text
-  name: posts
-  label: layout
-  description: Post format for articles
+  name: layout
+  label: Layout
+  description: Use posts
   hidden: false
 - type: text
   name: title
@@ -13,13 +13,14 @@ fields:
   label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
   config:
     display_utc: true
+    date_format: MM/DD/YYYY
   default: now
 - type: text
   name: categories
-  label: categories
+  label: Categories
 pages:
 - _posts/2020-03-07-product-managers-not-doing.md
 - _posts/2020-03-09-the-seo-game.md
