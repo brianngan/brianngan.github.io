@@ -1,26 +1,34 @@
 ---
-date: 2020-03-07T16:45:33.000+00:00
+date: 2020-03-12 16:45:33 +0000
 posts: posts
-title: 'Good Product Managers: White Space'
+title: 'Product Management: White Space'
 categories: product
 layout: posts
 
 ---
 White space _(or negative space)_ is a photography term to describe the empty space of a photo. This empty space allows for three things: clear composition, breathing room, and subject emphasis.
 
-In product, the white space is the list of features that a product manager does not build.
+In product, the white space is the invisible list of features that a product manager does not build.
 
-![](/uploads/1ccc3e98f2dac97d4312ea8cca85ccd5.jpg)
+![Fan Ho White Space](/uploads/1ccc3e98f2dac97d4312ea8cca85ccd5.jpg "Fan Ho White Space")
 
-**_Fan Ho_** _via_ [_FanHo-ForgetMeNot.com_]()
+**Fan Ho via** [**FanHo-ForgetMeNot.com**]()
 
 ## White Space in Product
 
-Clear composition: Well defined problem to solve and solutions that self-evidently solve them.
+White space in product works on two planes: On the product itself, and on the product manager's influence on his stakeholders.
 
-Breathing room: Avoidance of feature creep
+### Product White Space
 
-Subject emphasis: Single-minded focus in problem-solving.
+Product white space is self-evident when done right:
+
+**Clear composition**: The product efficiently solves a self-evident _(well-defined)_ problem.  
+**Breathing room**: The product does not have bloated and unused features.   
+**Subject emphasis**: The product naturally draws the user to the core solution.
+
+In practice, it is culling peripheral problems in favor of problems whose solutions move the primary metrics. This means having to refocus yourself and the team on the few things that we want to really do right
+
+White space is imposing strong constraints on designs, iterating on what works and rejecting what does not. For untested new features, it is having a sense of the minimum feature set to use as MVP. For more mature feature sets, it is iterating and proactively removing features that work less well. None of these are interesting as standalone designs. There is always a more novel and fully-realised design to build.
 
 A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product.
 
