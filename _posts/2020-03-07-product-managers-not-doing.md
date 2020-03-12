@@ -1,10 +1,20 @@
 ---
-date: 2020-03-07 16:45:33 +0000
+date: 2020-03-07T16:45:33.000+00:00
 posts: ''
-title: 'Product Managers: Not-doing'
+title: 'Good Product Managers: Proactive Rejection'
 categories: product
 
 ---
+A good product manager proactively rejects requests, ideas or problems. The core role of the product manager is to help to curate the features that constitute a product. ![](/uploads/1ccc3e98f2dac97d4312ea8cca85ccd5.jpg)
+
+**_Fan Ho_** _via_ [_FanHo-ForgetMeNot.com_]()
+
+In a sense, choosing a correct enough solution in terms of scope and fidelity 
+
+A big part of the product manager's job is to curate the features that a product builds. This defines how you and the development team spends their time. The general rule is to build good enough features and iterate over time. Implied in this general rule is that there are wrong features that may be built. 
+
+I believe that a good product manager should be primarily judged based on his ability to avoid building the wrong things. As product managers, we are uniquely positioned to help decide the right problems to tackle and the right solution (in terms of scope and fidelity) to develop.
+
 I know that a good product manager is one who can work with people to build and iterate on things. A good product manager can **do things** - i.e. she executes well, communicates well and overcomes obstacles well. Asking questions to understand how a potential hire builds a feature helps:
 
 * Can she zoom in and out of detail,
@@ -17,6 +27,6 @@ However, a product is not just the sum of the features built. A product is also 
 
 [photo-1548237619-4b0e219790b7?ixlib=rb-1.2.1&auto=format&fit=crop](https://images.unsplash.com/photo-1548237619-4b0e219790b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80 "photo-1548237619-4b0e219790b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
 
-In a sense, I want to reframe the idea of **not doing**. It should not be passive inactivity, but rather a deliberate and active **not-doing**. 
+In a sense, I want to reframe the idea of **not doing**. It should not be passive inactivity, but rather a deliberate and active **not-doing**.
 
-**Not-doing** is a lot of work for it's namesake. **Not-doing** is being able to reject senior stakeholder ideas. **Not-doing** is resisting your urges to doing obvious but wrong things, in favour of less wrong things. 
+**Not-doing** is a lot of work for it's namesake. **Not-doing** is being able to reject senior stakeholder ideas. **Not-doing** is resisting your urges to doing obvious but wrong things, in favour of less wrong things.
