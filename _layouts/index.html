@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  {% include head.html %}  
+  <body>
+    {% include nav-bar.html %}
+    <br><br><br><br><br>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-fifths is-gapless">
+            {{ content }}
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

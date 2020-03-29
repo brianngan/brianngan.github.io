@@ -1,29 +1,8 @@
-/* nav styles */
-a.logo {
-    color: black;
-    font-size: 2.75em;
-    line-height: 1.25em;
-    font-weight: 800;
-    padding: 12px
-}
-
-/* .navbar {
-    padding-top: 4em;
-    padding-bottom: 4em;  
-    display: flex;
-    flex-direction: row;
-    text-align: right; */
-}
-
 .nav-flex {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-}
-
-.nav-btn {
-    font-size: 1.5em;
-    font-weight: 700;
+    padding-top: 48px;
 }
 
 #navMenu {
@@ -43,20 +22,6 @@ span.burger-line {
 }
 /* nav styles end */
 
-/* footer styles */
-.footer {
-    background-color: black;
-}
-
-.footer-style {
-    color: white;
-}
-
-a.footer-style:hover {
-    color: #009FD1;
-}
-/* footer style end */
-
 .section {
     display: flex;
     min-height: 100vh;
@@ -64,67 +29,12 @@ a.footer-style:hover {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 4em;
-    font-weight: 600;
-    /* padding-top: 1.5em; */
-    padding-bottom: .75em;
-    color: black;
-    line-height: 1.1em;
-}
-
-h2 {
-    font-size: 2em;
-    font-weight: 600;
-    padding-top: 1em;
-    padding-bottom: .25em;
-    color: black;
-    line-height: 1.1em;    
-}
-
-h3 {
-    font-size: 1.5em;
-    font-weight: 600;
-    padding-top: 1em;
-    padding-bottom: .25em;
-    color: black;
-    line-height: 1.1em;  
-}
-
-h4 {
-    font-size: 18px;
-    font-weight: 800;
-
-    padding-bottom: 0.5em;
-    padding-bottom: 0.5em;
-    color: black;
-    text-align: justify;
-}
-
 pre.highlight {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 0.5em;
-    color: black;
     text-align: justify;
     padding: 20px;
-    background-color: #F9F9F9;
-}
-
-div.highlight {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-span.subtle {
-
-    padding: 10px;
-}
-
-.subtle {
-    color: #A2A2A2;
-    font-weight: 400;
 }
 
 body {
@@ -133,9 +43,24 @@ body {
     flex-direction: column;
   } 
 
+div.highlight {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+span.subtle {
+    padding: 10px;
+}
+
+.subtle {
+    color: #A2A2A2;
+}
+
+
 blockquote {
 background: #F9F9F9;
-border-left: 5px solid black;
+/* border-left: 5px solid black; */
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 1.5em 20px;
@@ -143,13 +68,13 @@ quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-color: #black;
 content: open-quote;
 font-size: 3em;
 line-height: 0.1em;
 margin-right: 0.25em;
 vertical-align: -0.4em;
 }
+
 blockquote p {
 display: inline;
   }
@@ -163,40 +88,20 @@ ol {
     padding-left: 30px;
 }
 
-p, span, a, li, br, code, strong{
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 0.5em;
-    color: black;
-    text-align: justify;
-}
-
-a {
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 0.5em;
-    color: #009FD1;
-}
-
 .card-index {
     right:24px;
     box-shadow: none;
     border-radius: 8px;
     padding: 24px;
 }
+.card-index:hover {
+    background-color: #F9F9F9;
+}
 
 .card-content{
     padding: 0;
 }
 
-.hideme
-{
-    opacity:0;
-}
-
-.container{
-    width: 100%;
-}
 
 div.on-hover-show {
     display: none;
@@ -214,21 +119,7 @@ div.card-index:hover + div.on-hover-show {
     animation-delay: 0.2s;
     animation-timing-function: ease-in;
 }
-
 @keyframes marquee {
     0% { left: 0; }
     2% { left: 2%; }
   }
-
-
-div.card-index:hover {
-    background-color: #f5f5f5;
-}
-
-span.post-tag{
-    padding: 10px;
-    border-radius: 100px;
-    background-color: A2A2A2;
-
-    color: black; 
-}
