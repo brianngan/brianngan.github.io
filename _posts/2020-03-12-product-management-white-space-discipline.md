@@ -22,10 +22,10 @@ White space discipline is self-evident when done right:
 > **Breathing room**: The product is not bloated.  
 > **Subject emphasis**: The product has clear user flows towards the user's goal.
 
-In practice, this means designing
+In practice, this means having to refocus yourself, the team and the stakeholders on the few problems that we want to solve well.
 
-In practice, it is culling peripheral problems in favor of problems whose solutions move the primary metrics. This means having to refocus yourself and the team on the few things that we want to really do right
+White space is imposing strong constraints on design, iterating on what works and rejecting what doesn't. 
 
-White space is imposing strong constraints on designs, iterating on what works and rejecting what does not. For untested new features, it is having a sense of the minimum feature set to design as MVP. For more mature feature sets, it is iterating and proactively removing features that work less well. None of these are interesting as standalone designs. There is always a more intriguing and fully-realised way to design. There is always another more novel project on the horizon. There is always enough space on the website to leave a bad feature as it is.
+For the untested new feature, it is having a sense of the minimum feature set for the solution to be apparent to the user. For more mature features, it is iterating and proactively removing features that work less well. In practice, these will always be less appealing to the designer or the product manager. There will always be a more intriguing designs and UI to carry out. There will always another more novel project on the horizon. Over time, you decide that there is always enough space on the website to leave a bad feature as it is.
 
 That being said, the reward of having white space discipline would be a better shot at building something that users are intuitively drawn to because it clearly solves their problem, is simple and is clearly solving their problem.
