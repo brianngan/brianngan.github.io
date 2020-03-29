@@ -9,7 +9,9 @@ title: Brian Ngan
 <h1>
   Posts
 </h1>
-  {% for post in site.posts %}
+
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
   <div class="card card-index" onclick="window.location.href = '{{ post.url }}';">
     <div style="overflow: hidden;">
       <h4></h4> 
@@ -25,6 +27,28 @@ title: Brian Ngan
       Read Article.
   </div>
 
+  {% endfor %}
+
+  <!-- Pagination links -->
+  <br><br>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="pagination-previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="pagination-previous">Previous</span>
+    {% endif %}
+    <span class="pagination-list">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pagination-next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+  
   <br>
   {% endfor %}
   <br>

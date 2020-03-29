@@ -29,8 +29,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 permalink: /:categories/:title:output_ext
+paginate_path: "/blog/page:num/"
+
+paginate: 3
 
 exclude:
   - node_modules
