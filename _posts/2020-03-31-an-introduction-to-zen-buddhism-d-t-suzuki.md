@@ -5,11 +5,13 @@ title: 'An introduction to Zen Buddhism: D. T. Suzuki'
 categories: zen
 
 ---
-What I like about the Zen practices is that it brings attention to something that is always there in all of us; An innate free, quiet and sufficient mind. In today's busy, complex and anxiety-inducing landscape, the Zen practice feels like its more needed than ever.
+What I like about the Zen practice is that it brings attention to something that is always there - the free, quiet and sufficient mind. In today's busy, complex and anxiety-inducing landscape, Zen feels as relevant today as it did during its ancient origins.
 
-This book is one of the two books The Way Of Zen
+This book is one of the two books that I'd recommend to people interested in the Zen practice. The other is [The Way Of Zen: Alan Watts](https://brianngan.github.io/zen/the-way-of-zen-takeaways.html "The Way Of Zen: Alan Watts").
 
-[https://terebess.hu/zen/mesterek/Suzuki-DT-Introduction-Zen-Buddhism.pdf](https://terebess.hu/zen/mesterek/Suzuki-DT-Introduction-Zen-Buddhism.pdf "An Introduction to Zen Buddhism")
+To help you get started, here's the .pdf version: [An Introduction to Zen Buddhism](https://terebess.hu/zen/mesterek/Suzuki-DT-Introduction-Zen-Buddhism.pdf "An Introduction to Zen Buddhism").
+
+I've listed a few good excerpts from the book:
 
 ## What is Zen?
 
