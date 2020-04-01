@@ -390,8 +390,8 @@ table th {
 .is-size-2 {
   font-size: 2rem !important; }
 
-.is-size-2 {
-  font-size: 2rem !important; }
+.is-size-3 {
+  font-size: 1.8rem !important; }
 
 .is-size-4 {
   font-size: 1.5rem !important; }
@@ -410,8 +410,8 @@ table th {
     font-size: 3rem !important; }
   .is-size-2-mobile {
     font-size: 2rem !important; }
-  .is-size-2-mobile {
-    font-size: 2rem !important; }
+  .is-size-3-mobile {
+    font-size: 1.8rem !important; }
   .is-size-4-mobile {
     font-size: 1.5rem !important; }
   .is-size-4-mobile {
@@ -426,8 +426,8 @@ table th {
     font-size: 3rem !important; }
   .is-size-2-tablet {
     font-size: 2rem !important; }
-  .is-size-2-tablet {
-    font-size: 2rem !important; }
+  .is-size-3-tablet {
+    font-size: 1.8rem !important; }
   .is-size-4-tablet {
     font-size: 1.5rem !important; }
   .is-size-4-tablet {
@@ -442,8 +442,8 @@ table th {
     font-size: 3rem !important; }
   .is-size-2-touch {
     font-size: 2rem !important; }
-  .is-size-2-touch {
-    font-size: 2rem !important; }
+  .is-size-3-touch {
+    font-size: 1.8rem !important; }
   .is-size-4-touch {
     font-size: 1.5rem !important; }
   .is-size-4-touch {
@@ -458,8 +458,8 @@ table th {
     font-size: 3rem !important; }
   .is-size-2-desktop {
     font-size: 2rem !important; }
-  .is-size-2-desktop {
-    font-size: 2rem !important; }
+  .is-size-3-desktop {
+    font-size: 1.8rem !important; }
   .is-size-4-desktop {
     font-size: 1.5rem !important; }
   .is-size-4-desktop {
@@ -2566,7 +2566,7 @@ a.tag:hover {
 
 .title {
   color: #363636;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.125; }
   .title strong {
@@ -2580,8 +2580,8 @@ a.tag:hover {
     font-size: 3rem; }
   .title.is-2 {
     font-size: 2rem; }
-  .title.is-2 {
-    font-size: 2rem; }
+  .title.is-3 {
+    font-size: 1.8rem; }
   .title.is-4 {
     font-size: 1.5rem; }
   .title.is-4 {
@@ -2605,8 +2605,8 @@ a.tag:hover {
     font-size: 3rem; }
   .subtitle.is-2 {
     font-size: 2rem; }
-  .subtitle.is-2 {
-    font-size: 2rem; }
+  .subtitle.is-3 {
+    font-size: 1.8rem; }
   .subtitle.is-4 {
     font-size: 1.5rem; }
   .subtitle.is-4 {
@@ -6542,11 +6542,11 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-p, a, li, br, code, strong {
+p, a, br, code, strong {
   font-size: 1.1rem;
   line-height: 160%;
   text-align: justify;
-  padding-bottom: 2rem; }
+  padding-bottom: 1.1rem; }
 
 a {
   color: #009FD1; }
@@ -6568,12 +6568,21 @@ h1 {
   line-height: 1.1em;
   padding-bottom: .75em; }
 
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1em;
+  padding-bottom: .5em; }
+
 h4 {
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.1em;
-  padding-bottom: .75em;
+  padding-bottom: .5em;
   text-align: justify; }
+
+li {
+  line-height: 1.1em; }
 
 .button {
   font-weight: 600; }

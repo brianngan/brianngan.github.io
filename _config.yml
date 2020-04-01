@@ -34,7 +34,7 @@ plugins:
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
 
-paginate: 3
+paginate: 5
 
 exclude:
   - node_modules
