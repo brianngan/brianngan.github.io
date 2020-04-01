@@ -8,7 +8,7 @@ layout: posts
 ---
 Be me. Took part in the SEO Game.
 
-Find out on the internet that I have a relatively common name in the grand scheme of things. Brain swirls in cosmic anxiety at all the permutations of me that are currently living a life in my name. Some Brian Ngans live completely divergent lives as dentists, golfers, investors, developers, photographers and so on... 
+Find out on the internet that I have a relatively common name in the grand scheme of things. Brain swirls in cosmic anxiety at all the permutations of me that are currently living a life in my name. Some Brian Ngans live completely divergent lives as dentists, golfers, investors, developers, photographers and so on...
 
 Find out that each one of these alter egos are congesting my SEO space (see for yourself [here](https://www.google.com/search?q=brian+ngan "https://www.google.com/search?q=brian+ngan")).
 
@@ -31,4 +31,4 @@ Still sitting at number 3...
 
 ![](/uploads/daniele-d-andreti-jQ49DUhffos-unsplash.jpg "stone cold stunner")
 
-_Photo: Stone Cold Stunner_
+_Photo: "Dummy's Guide on doing a Stone Cold Stunner on Angels."_
