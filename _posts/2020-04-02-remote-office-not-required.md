@@ -1,12 +1,10 @@
 ---
 date: 2020-04-02 01:06:50 +0800
-layout: ''
+layout: posts
 title: 'Remote: Office Not Required'
-categories: ''
+categories: product
 
 ---
-PDF version: [here](http://static.squarespace.com/static/50805111e4b0ffcfe70b06cf/t/536a3d6de4b031c734d92ff4/1399471469724/remote-office-not-required.pdf)
-
 Right now, as COVID changes the way we work, it's the ideal time to relook the ideas in the book. I found three ideas in the book to be particularly meaningful:
 
 ## 1. Virtual Water Cooler
@@ -85,3 +83,9 @@ The real worry is that there is too much that will likely get done and the perso
 ### Be On The Lookout for Overwork, Not Underwork
 
 The fact is that it is easy to turn work into your predominant hobby.
+
+![](/uploads/christina-wocintechchat-com-EkeThvO9VfM-unsplash.jpg)
+
+_Photo: "Her refurbished 15" Macbook pro (2016) was getting hot and her knees were feeling uncomfortably clammy. But in that moment in that cafe stool, the business lady could only think to herself: "Must stay still, only then will the hipsters accept me as one of them" "_
+
+Read the PDF version: [here](http://static.squarespace.com/static/50805111e4b0ffcfe70b06cf/t/536a3d6de4b031c734d92ff4/1399471469724/remote-office-not-required.pdf)
