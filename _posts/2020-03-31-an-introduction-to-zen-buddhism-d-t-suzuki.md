@@ -1,5 +1,5 @@
 ---
-date: 2020-03-31 08:30:59 +0800
+date: 2020-03-31T00:30:59.000+00:00
 layout: posts
 title: 'An introduction to Zen Buddhism: D. T. Suzuki'
 categories: zen
@@ -51,6 +51,8 @@ Zen is not following one's natural bent without questioning its origin and value
 
 ## End
 
-![](/uploads/michael-jasmund-t-WxNy6CMyU-unsplash.jpg)
-
 Taking it all in all, Zen is emphatically a matter of personal experience; if anything can be called radically, empirical, it is Zen. No amount of reading, no amount of teaching, no amount of contemplation will ever make one a Zen master. Life itself must be grasped amidst its flow; to stop it for examination and analysis is to kill it, leaving its cold corpse to be embraced.
+
+![](/uploads/ilkka-karkkainen-w7LfsVVwWOw-unsplash.jpg)
+
+_Photo: "It was in this decisive moment that I started to wonder if I was being creepy."_
