@@ -31,4 +31,4 @@ Still sitting at number 3...
 
 ![](/uploads/daniele-d-andreti-jQ49DUhffos-unsplash.jpg "stone cold stunner")
 
-_Photo: "Dummy's Guide on doing a Stone Cold Stunner on Angels."_
+_Photo: "Dummy's Guide to performing a Stone Cold Stunner on Angels."_
