@@ -6,15 +6,15 @@ categories: product
 layout: posts
 
 ---
-Be me. Join me in the SEO Game.
+Be me. Took part in the SEO Game.
 
 Find out on the internet that I have a relatively common name in the grand scheme of things. Brain swirls in cosmic anxiety at all the permutations of me that are currently living a life in my name. Some Brian Ngans live completely divergent lives as dentists, golfers, investors, developers, photographers and so on... 
 
-Find out that each one of these alter egos are congesting my SEO sap (see for yourself [here](https://www.google.com/search?q=brian+ngan "https://www.google.com/search?q=brian+ngan"))
-
-_Screenshot: Mostly not me._)
+Find out that each one of these alter egos are congesting my SEO space (see for yourself [here](https://www.google.com/search?q=brian+ngan "https://www.google.com/search?q=brian+ngan")).
 
 ![](/uploads/brian-ngan-images.png)
+
+_Screenshot: Mostly not me._
 
 They say:
 
@@ -27,6 +27,8 @@ Commence Operation: Copy-And-Paste-My-URL-Where-Ever-I-Can. Find every nook of t
 
 And now we wait...
 
-_This article continues in 16 Mar 2020._
+Still sitting at number 3...
 
 ![](/uploads/daniele-d-andreti-jQ49DUhffos-unsplash.jpg "stone cold stunner")
+
+_Photo: Stone Cold Stunner_
