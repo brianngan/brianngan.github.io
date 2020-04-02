@@ -396,8 +396,8 @@ table th {
 .is-size-4 {
   font-size: 1.5rem !important; }
 
-.is-size-4 {
-  font-size: 1.5rem !important; }
+.is-size-5 {
+  font-size: 1.2rem !important; }
 
 .is-size-6 {
   font-size: 1.1rem !important; }
@@ -414,8 +414,8 @@ table th {
     font-size: 1.8rem !important; }
   .is-size-4-mobile {
     font-size: 1.5rem !important; }
-  .is-size-4-mobile {
-    font-size: 1.5rem !important; }
+  .is-size-5-mobile {
+    font-size: 1.2rem !important; }
   .is-size-6-mobile {
     font-size: 1.1rem !important; }
   .is-size-7-mobile {
@@ -430,8 +430,8 @@ table th {
     font-size: 1.8rem !important; }
   .is-size-4-tablet {
     font-size: 1.5rem !important; }
-  .is-size-4-tablet {
-    font-size: 1.5rem !important; }
+  .is-size-5-tablet {
+    font-size: 1.2rem !important; }
   .is-size-6-tablet {
     font-size: 1.1rem !important; }
   .is-size-7-tablet {
@@ -446,8 +446,8 @@ table th {
     font-size: 1.8rem !important; }
   .is-size-4-touch {
     font-size: 1.5rem !important; }
-  .is-size-4-touch {
-    font-size: 1.5rem !important; }
+  .is-size-5-touch {
+    font-size: 1.2rem !important; }
   .is-size-6-touch {
     font-size: 1.1rem !important; }
   .is-size-7-touch {
@@ -462,8 +462,8 @@ table th {
     font-size: 1.8rem !important; }
   .is-size-4-desktop {
     font-size: 1.5rem !important; }
-  .is-size-4-desktop {
-    font-size: 1.5rem !important; }
+  .is-size-5-desktop {
+    font-size: 1.2rem !important; }
   .is-size-6-desktop {
     font-size: 1.1rem !important; }
   .is-size-7-desktop {
@@ -1753,7 +1753,7 @@ a.box:active {
   .button.is-normal {
     font-size: 1.1rem; }
   .button.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .button.is-large {
     font-size: 1.5rem; }
   .button[disabled],
@@ -1801,7 +1801,7 @@ a.box:active {
     border-radius: 2px;
     font-size: 0.75rem; }
   .buttons.are-medium .button:not(.is-small):not(.is-normal):not(.is-large) {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .buttons.are-large .button:not(.is-small):not(.is-normal):not(.is-medium) {
     font-size: 1.5rem; }
   .buttons.has-addons .button:not(:first-child) {
@@ -1987,7 +1987,7 @@ a.box:active {
   font-size: 0.75rem; }
 
 .content.is-medium {
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 .content.is-large {
   font-size: 1.5rem; }
@@ -2260,7 +2260,7 @@ a.box:active {
   .progress.is-small {
     height: 0.75rem; }
   .progress.is-medium {
-    height: 1.5rem; }
+    height: 1.2rem; }
   .progress.is-large {
     height: 1.5rem; }
 
@@ -2415,7 +2415,7 @@ a.box:active {
   .tags.are-medium .tag:not(.is-normal):not(.is-large) {
     font-size: 1.1rem; }
   .tags.are-large .tag:not(.is-normal):not(.is-medium) {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .tags.is-centered {
     justify-content: center; }
     .tags.is-centered .tag {
@@ -2506,7 +2506,7 @@ a.box:active {
   .tag:not(body).is-medium {
     font-size: 1.1rem; }
   .tag:not(body).is-large {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .tag:not(body) .icon:first-child:not(:last-child) {
     margin-left: -0.375em;
     margin-right: 0.1875em; }
@@ -2584,8 +2584,8 @@ a.tag:hover {
     font-size: 1.8rem; }
   .title.is-4 {
     font-size: 1.5rem; }
-  .title.is-4 {
-    font-size: 1.5rem; }
+  .title.is-5 {
+    font-size: 1.2rem; }
   .title.is-6 {
     font-size: 1.1rem; }
   .title.is-7 {
@@ -2593,7 +2593,7 @@ a.tag:hover {
 
 .subtitle {
   color: #4a4a4a;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.25; }
   .subtitle strong {
@@ -2609,8 +2609,8 @@ a.tag:hover {
     font-size: 1.8rem; }
   .subtitle.is-4 {
     font-size: 1.5rem; }
-  .subtitle.is-4 {
-    font-size: 1.5rem; }
+  .subtitle.is-5 {
+    font-size: 1.2rem; }
   .subtitle.is-6 {
     font-size: 1.1rem; }
   .subtitle.is-7 {
@@ -2637,7 +2637,7 @@ a.tag:hover {
   background-color: whitesmoke;
   border-radius: 290486px;
   display: inline-flex;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   height: 2em;
   justify-content: center;
   margin-right: 1.5rem;
@@ -2748,7 +2748,7 @@ a.tag:hover {
     border-radius: 2px;
     font-size: 0.75rem; }
   .is-medium.input, .is-medium.textarea {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .is-large.input, .is-large.textarea {
     font-size: 1.5rem; }
   .is-fullwidth.input, .is-fullwidth.textarea {
@@ -2920,7 +2920,7 @@ a.tag:hover {
     border-radius: 2px;
     font-size: 0.75rem; }
   .select.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .select.is-large {
     font-size: 1.5rem; }
   .select.is-disabled::after {
@@ -2938,7 +2938,7 @@ a.tag:hover {
   .select.is-loading.is-small:after {
     font-size: 0.75rem; }
   .select.is-loading.is-medium:after {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .select.is-loading.is-large:after {
     font-size: 1.5rem; }
 
@@ -3110,7 +3110,7 @@ a.tag:hover {
   .file.is-small {
     font-size: 0.75rem; }
   .file.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
     .file.is-medium .file-icon .fa {
       font-size: 21px; }
   .file.is-large {
@@ -3237,7 +3237,7 @@ a.tag:hover {
   .label.is-small {
     font-size: 0.75rem; }
   .label.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .label.is-large {
     font-size: 1.5rem; }
 
@@ -3373,7 +3373,7 @@ a.tag:hover {
     .field-label.is-normal {
       padding-top: 0.375em; }
     .field-label.is-medium {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       padding-top: 0.375em; }
     .field-label.is-large {
       font-size: 1.5rem;
@@ -3414,7 +3414,7 @@ a.tag:hover {
   .control.has-icons-left .input.is-medium ~ .icon,
   .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon,
   .control.has-icons-right .select.is-medium ~ .icon {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .control.has-icons-left .input.is-large ~ .icon,
   .control.has-icons-left .select.is-large ~ .icon, .control.has-icons-right .input.is-large ~ .icon,
   .control.has-icons-right .select.is-large ~ .icon {
@@ -3445,7 +3445,7 @@ a.tag:hover {
   .control.is-loading.is-small:after {
     font-size: 0.75rem; }
   .control.is-loading.is-medium:after {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .control.is-loading.is-large:after {
     font-size: 1.5rem; }
 
@@ -3491,7 +3491,7 @@ a.tag:hover {
   .breadcrumb.is-small {
     font-size: 0.75rem; }
   .breadcrumb.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .breadcrumb.is-large {
     font-size: 1.5rem; }
   .breadcrumb.has-arrow-separator li + li::before {
@@ -3770,7 +3770,7 @@ a.list-item {
   .menu.is-small {
     font-size: 0.75rem; }
   .menu.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .menu.is-large {
     font-size: 1.5rem; }
 
@@ -3814,7 +3814,7 @@ a.list-item {
   .message.is-small {
     font-size: 0.75rem; }
   .message.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .message.is-large {
     font-size: 1.5rem; }
   .message.is-white {
@@ -4805,7 +4805,7 @@ a.navbar-item,
   .pagination.is-small {
     font-size: 0.75rem; }
   .pagination.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .pagination.is-large {
     font-size: 1.5rem; }
   .pagination.is-rounded .pagination-previous,
@@ -5172,7 +5172,7 @@ label.panel-block {
   .tabs.is-small {
     font-size: 0.75rem; }
   .tabs.is-medium {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .tabs.is-large {
     font-size: 1.5rem; }
 
@@ -6570,6 +6570,12 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1em;
+  padding-bottom: .5em; }
+
+h3 {
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.1em;
   padding-bottom: .5em; }
