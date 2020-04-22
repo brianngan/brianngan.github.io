@@ -5,7 +5,9 @@ title: 'Daily UI :: 001 Sign Up'
 categories: ux-design
 
 ---
-This UI challenge was straight-forward. Create a sign up flow for anything that you want. So I decided upon Roll-Box, a much needed toilet-paper-subscription-box service. "Want to hoard some cylinders in your fallout shelter? Want to build a paper fort? Want to TP somebody's house? Why not subscribe to Roll-Box today! Simply type in the promo code: FREETP."
+This UI challenge was straight-forward. Create a sign up flow for anything that you want. So I decided upon Roll-Box, a Greentech-toilet-paper-subscription-box service. Here is the CTO's introduction to the product:
+
+> Want to hoard some cylinders in your fallout shelter? Want to build a paper fort? Want to TP somebody's house? Why not subscribe to Roll-Box today! Simply type in the promo code: FREETP.
 
 ![](/uploads/daily-ui-1-hero.png "Daily UI 1 Sign Up")
 
