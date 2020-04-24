@@ -5,9 +5,9 @@ title: 'Daily UI: Credit Card Checkout'
 categories: ux-design
 
 ---
-Checkout experiences do a surprising number of tasks. Some companies try to do too many tasks, so they trip on their complexity. This can range from getting users to register an account, purchase upsells, subscribe to another paid service like a warranty, apply complicated multi-conditional discounts, etc.
+Checkout experiences can involve a surprisingly large number of tasks. Some companies try to do too much, so they trip on their self-imposed complexity. Some examples would be getting users to purchase some up-sells, subscribe to post-paid third party services (like a warranty), register an account, apply complicated multi-conditional discounts, etc. When all the user wants to do is to buy a potato.
 
-This checkout experience oversimplifies the realities of working with stakeholders who ask for oxymoronic _complicated-simple_ experiences.
+This checkout experience oversimplifies the realities of creating a checkout experience. In real life, marketing and sales will tend to throw around simple-sounding, but complicated, ideas. And it is your job to recognise and call out bad ideas.
 
 I kept it simple. A checkout is a selection of checkout items, sign up to a newsletter, acceptances of Terms Of Service
 
