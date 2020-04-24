@@ -11,24 +11,25 @@ This checkout experience simplifies the realities of creating a checkout experie
 
 This UI challenge was the straight-forward implementation: Choose your checkout items, , accept our Terms Of Service, tell us where you to send it to, pay us, get your potato.
 
-![](/uploads/checkout-preview-2.png)
+![](/uploads/checkout-preview-3-1.png)
 
 ## Persistent Information
 
-Of all the information in a check out, a persistent order summary makes for a good experience. Most check out experiences do this, but some companies grow the order summary into it's own CVS receipt, which defeats the purpose of a summary.
+A persistent order summary makes for a good experience. Most check out experiences do this, but some companies grow the order summary into it's own CVS receipt, which defeats the purpose of a summary.
 
-## Success States
+## Checkout
 
-A successful sign up would trigger a toastbox success alert. The user will be updated about the need to verify his account through an email from Roll-Box.
+The checkout page I decided on is common. I thought it would be neat to have a scrollbar for the main card because it kept my layouts consistent. In hindsight, I would not do that because as the main card grows in content, a lot of content would be hidden beneath a secondary interaction that users may miss. Also, two scrollbars on mobile is generally not a good experience.
 
-## Soft Error States
+![](/uploads/checkout-select-2.png)
 
-Error states in the Sign Up flow must be informative and rectifiable by the user. Similarly, when the primary fields are not complete, the primary action must be disabled. These UI will guide the user out of the typical errors in a sign up experience such as:
+## Shipping
 
-* Name is wrong (_too short, unicode characters, etc._)
-* Email address is wrong (_not unique, not following the email regex, etc._)
-* Password is wrong (_too short, too common, etc._)
-* Toilet Roll Type is wrong (_innie-s are not accepted_)
+![](/uploads/checkout-shipping.png)
+
+## Payment
+
+![](/uploads/checkout-payment.png)
 
 ## Style
 
