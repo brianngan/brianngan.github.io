@@ -1,5 +1,5 @@
 ---
-date: 2020-04-23 00:18:04 +0800
+date: 2020-04-26 00:18:04 +0800
 layout: posts
 title: 'Daily UI: Landing Page'
 categories: ux-design
