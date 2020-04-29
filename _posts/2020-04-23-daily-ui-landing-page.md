@@ -9,11 +9,11 @@ categories: ux-design
 
 ## Create A Landing Page
 
-Today's UI challenge was to create a landing page. I used **Outside**, the biggest social media platform in the world where you sign up by ... going outside _(Aside: please stay at home if you are on lock down)_.
+I used the newest hypothetical start-up, **Outside**. Outside is the biggest social media platform in the world where you sign up by ... going outside _(Aside: please stay at home if you are on lock down)_.
 
-For the competitive analysis, I found [landingfolio](https://www.landingfolio.com/inspiration/landing-page?offset=2 "landingfolio inspiration") to be a good and relevant design resource. It is a really useful reference for real world websites.
+For the competitive analysis, I found [landingfolio](https://www.landingfolio.com/inspiration/landing-page?offset=2 "landingfolio inspiration") has been a good and relevant design resource for this page. It is a useful as a reference for real world websites. 
 
-A landing page can be distilled down into three components: Action, Value Preview and Social Proof. Next, I go into detail for each of the components. But first, this was how I incorporated the 3 components:
+Below, I go over three sections of a landing page: Action, Value Preview, Social Proof. Based on these three sections, I created the following page:
 
 ![](/uploads/outside-landing.png)
 
