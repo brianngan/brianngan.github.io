@@ -5,18 +5,15 @@ title: 'Daily UI: Sign Up'
 categories: ux-design
 
 ---
-
 ![](/uploads/daily-ui-1-hero.png "Daily UI 1 Sign Up")
 
-This UI challenge was straight-forward. Create a sign up flow for anything that you want. 
+## Create A Sign Up Flow
 
-So I decided upon Roll-Box, a Greentech-toilet-paper-subscription-box service. Here is the CTO's introduction to the product:
+I used a hypothetical company: **Roll-Box**. Roll-Box is a Greentech-toilet-paper-subscription-box service. Here is the hypothetical CTO's introduction to the product:
 
 > Want to hoard some cylinders in your fallout shelter? Want to build a paper fort? Want to TP somebody's house? Why not subscribe to Roll-Box today! Simply type in the promo code: FREETP to get your first month free!
 
-## Sign Up Flow
-
-The sign up flow is straight-forward. Multiple sources of sign up CTA buttons that funnel the user to sign up. On successful sign up, we take the user through a quick personalisation and an onboarding guide.
+A sign up flow has many entry points. On entry, the user goes through a funnel to sign up, personalise his experience and be onboarded. In execution, it looks like this:
 
 ![](/uploads/daily-ui-1-flat-1.png)
 
