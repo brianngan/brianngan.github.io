@@ -1,13 +1,13 @@
 ---
 date: 2020-04-30 00:18:04 +0800
 layout: posts
-title: 'Daily UI: Landing Page'
+title: 'Daily UI: App Icon'
 categories: ux-design
 
 ---
 ![](/uploads/Frame 7.png)
 
-## Create An App Logo
+## Create An App Icon
 
 I used a hypothetical company, **Birb Birb**, a Food & Beverage industrial cafeteria that primarily sells food of the avian variety.
 
@@ -27,4 +27,4 @@ Padding of the center image and the background is important. I keep like a 48px 
 
 ![](/uploads/Frame 6-1.png)
 
-Background colour is also important. It should not bleed into the background. More saturated colours could work well for that.  
+Background colour is also important. It should not bleed into the background. More saturated colours could work well for that.
