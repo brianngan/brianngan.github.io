@@ -7,13 +7,15 @@ categories: ux-design
 ---
 ![](/uploads/checkout-preview-3-1.png)
 
-Checkout experiences can involve a surprisingly large number of tasks. Some companies try to do too much, so they trip on their self-imposed complexity. Examples of self-imposed complexity would be to get users to: purchase up-sells, subscribe to post-paid third-party services (_like a warranty_), apply multi-conditional discounts-on-discounts, etc. 
+## Create A Checkout Experience
+
+Checkout experiences can involve a surprisingly large number of tasks. Some companies try to do too much, so they trip on their self-imposed complexity. Examples of self-imposed complexity would be to get users to: purchase up-sells, subscribe to post-paid third-party services (_like a warranty_), apply multi-conditional discounts-on-discounts, etc.
 
 When all the user wants to do is to - buy and receive a potato.
 
-This checkout challenge abstracts away the true complexity of designing this particular module. It is truly complicated because it involves Sales and Marketing. This happens for three reasons: (1) Sales and marketing are revenue generators and naturally have a lot of power in most organisations, (2) Sales and marketing tend to be persuasive and loud by virtue of the role, (3) Most importantly, eCommerce feels like it should fall into the Sales and Marketing purview (_it does not_), so they may feel compelled to exert authority over it. As such, they tend to throw around persuasive (_almost sales-pitch-y_), but very complicated or otherwise un-executable ideas. And it is your job to recognise and call out these bad ideas. 
+This checkout challenge abstracts away the true complexity of designing this particular module. It is truly complicated because it involves Sales and Marketing. This happens for three reasons: (1) Sales and marketing are revenue generators and naturally have a lot of power in most organisations, (2) Sales and marketing tend to be persuasive and loud by virtue of the role, (3) Most importantly, eCommerce feels like it should fall into the Sales and Marketing purview (_it does not_), so they may feel compelled to exert authority over it. As such, they tend to throw around persuasive (_almost sales-pitch-y_), but very complicated or otherwise un-executable ideas. And it is your job to recognise and call out these bad ideas.
 
-And now back to the UI challenge: Design a credit card checkout form or page. 
+And now back to the UI challenge: Design a credit card checkout form or page.
 
 ## Checkout
 
@@ -39,6 +41,6 @@ A persistent order summary makes for a good experience. Most check out experienc
 
 ## Style
 
-I enjoyed this restrictive colour palette. Matte pink on black has good and readable contrast. Blue, the contra-colour of pink, is great for showing interactivity. I added an underline and blue colours to buttons on hover or on click to confirms the users' understanding of his action. 
+I enjoyed this restrictive colour palette. Matte pink on black has good and readable contrast. Blue, the contra-colour of pink, is great for showing interactivity. I added an underline and blue colours to buttons on hover or on click to confirms the users' understanding of his action.
 
 The line art goes really well with border-lines of cards; these parts make for a coherent aesthetic.
