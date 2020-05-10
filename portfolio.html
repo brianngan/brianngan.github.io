@@ -1,0 +1,36 @@
+---
+layout: index
+title: Brian Ngan
+---
+<h1>
+  Posts
+</h1>
+
+{% for category in site.categories %}
+   {{ category | first | strip_html }}
+{% endfor %}
+
+  <div class="container">
+    {% assign portfolio = site.posts | where_exp: "post", "post.categories contains 'portfolio'" %}
+    {% for post in portfolio %}
+        {% cycle 'add row' : '<div class="row">', "", "" %} 
+            <div class="col-sm-4">
+              
+              <div class="card card-index" onclick="window.location.href = '{{ post.url }}';">
+                <div style="overflow: hidden;">
+                  <h4></h4> 
+                  <h4 style="float: left;">{{ post.title }} &nbsp;</h4> 
+                  <span class="tag is-primary is-light" style="clear: left">{{ post.categories}}</span>
+                </div>  
+                <div class="card-content">  
+                  {{ post.excerpt }}
+                  <span class="subtle">{{ post.date | date_to_string }}</span>
+                </div>  
+              </div>
+              <div class="on-hover-show marquee">
+                    Read Article.
+              </div>
+            </div>
+        {% cycle 'end row' : "", "", '</div>' %}
+    {% endfor %}
+  </div>

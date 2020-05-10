@@ -30,14 +30,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-include-cache
 
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
 
 paginate: 5
 
-exclude:
-  - node_modules
+sass:
+  style: compact # possible values: nested expanded compact compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -2,7 +2,8 @@
 date: 2020-04-30 00:18:04 +0800
 layout: posts
 title: 'Daily UI: App Icon'
-categories: ux-design
+categories: portfolio
+tags: practice
 
 ---
 ![](/uploads/Frame 7.png)

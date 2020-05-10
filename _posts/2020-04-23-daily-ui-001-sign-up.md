@@ -2,7 +2,8 @@
 date: 2020-04-23 00:18:04 +0800
 layout: posts
 title: 'Daily UI: Sign Up'
-categories: ux-design
+categories: portfolio
+tags: practice
 
 ---
 ![](/uploads/daily-ui-1-hero.png "Daily UI 1 Sign Up")

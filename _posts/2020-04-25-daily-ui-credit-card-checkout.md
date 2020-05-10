@@ -2,7 +2,8 @@
 date: 2020-04-25 00:18:04 +0800
 layout: posts
 title: 'Daily UI: Credit Card Checkout'
-categories: ux-design
+categories: portfolio
+tags: practice
 
 ---
 ![](/uploads/checkout-preview-3-1.png)

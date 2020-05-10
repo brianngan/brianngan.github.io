@@ -2,8 +2,8 @@
 date: 2020-04-26 00:18:04 +0800
 layout: posts
 title: 'Daily UI: Landing Page'
-categories: ux-design
-
+categories: portfolio
+tags: practice
 ---
 ![](/uploads/landing-pages-preview-1.png)
 
