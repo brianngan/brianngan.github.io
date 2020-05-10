@@ -39,6 +39,7 @@ paginate: 5
 
 sass:
   style: compact # possible values: nested expanded compact compressed
+  sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
