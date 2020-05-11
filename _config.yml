@@ -40,8 +40,8 @@ paginate_path: "/blog/page:num/"
 paginate: 5
 
 sass:
-  style: compact # possible values: nested expanded compact compressed
   sass_dir: _sass
+  style: compressed
 
 bootstrap:
   assets: true
