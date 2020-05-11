@@ -3,6 +3,11 @@
 $font-stack: 'Nunito', sans-serif;
 $enable-responsive-font-sizes: true;
 
+a.btn-nav {
+  font-family: $font-stack; 
+  color: $body-colour;
+}
+
 body {
   font-family: $font-stack; 
   font-size: 21px;
@@ -21,4 +26,5 @@ a.navbar-brand {
     font-size: 36px;
     font-weight: bold;
     line-height: 40px;
+    color: $body-colour;
 }

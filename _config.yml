@@ -36,6 +36,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-include-cache
+  
 
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
