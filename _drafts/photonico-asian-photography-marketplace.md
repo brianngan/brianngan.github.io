@@ -1,6 +1,7 @@
 ---
 date: 2020-03-01 12:03:38 +0800
-tags: []
+tags:
+- work
 layout: posts
 title: 'Photonico: Asian Photography Marketplace'
 categories: portfolio
