@@ -8,6 +8,7 @@ categories: portfolio
 
 ---
 ![Alt Text](/uploads/photonico.gif)
+
 ## TL;DR
 
 **The Original Challenge**
