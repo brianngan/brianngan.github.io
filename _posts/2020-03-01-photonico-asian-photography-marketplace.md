@@ -7,11 +7,10 @@ title: 'Photonico: Asian Photography Marketplace'
 categories: portfolio
 
 ---
-![](/uploads/photonico.png "Photonico Homepage")
-
+![Alt Text](/uploads/photonico.gif)
 ## TL;DR
 
-**The Original Challenge** 
+**The Original Challenge**
 
 To monetize the news organisation's wealth of archive photographs. I worked on discovering the right audience and meaningful problems to solve. The product discovery led to...
 
@@ -25,9 +24,9 @@ We achieved several revenue-generating content marketing partnerships with gover
 
 ## Overview
 
-The opportunity that came from working in a news organisation was its deep archives of news content. The deep wealth of high quality archival photographs could potentially address meaningful problems in Singapore. My task was to discover the right problem and audience to create a product around. 
+The opportunity that came from working in a news organisation was its deep archives of news content. The deep wealth of high quality archival photographs could potentially address meaningful problems in Singapore. My task was to discover the right problem and audience to create a product around.
 
-My Chief Product Officer coached me and was instrumental in defining the product vision and strategy. 
+My Chief Product Officer coached me and was instrumental in defining the product vision and strategy.
 
 ## Product Discovery
 
