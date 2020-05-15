@@ -3,16 +3,12 @@
   {% include head.html %}  
   <body>
     {% include navigation.html %}
-    <br><br><br><br><br>
+    <div class="col-xs-12" style="height:104px;"></div>
     <section class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column is-full is-gapless">
-           {{ content }}
-          </div>
-        </div>
-      </div>
+      {{ content }}      
     </section>
+    <div class="col-xs-12" style="height:80px;"></div>
     {% include footer.html %}
+    {% include javascript.html %}
   </body>
 </html>

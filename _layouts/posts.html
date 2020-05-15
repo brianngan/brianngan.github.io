@@ -3,45 +3,16 @@
   {% include head.html %}  
   <body>
     {% include navigation.html %}
-    <div class="col-xs-12" style="height:160px;"></div>
-    <section class="section">
+    <div class="col-xs-12" style="height:304px;"></div>
       <div class="container">
-        <div class="columns">
-          <div class="column is-three-fifths is-gapless">
+        <div class="row">
+          <div class="col-sm-7">
             <h1>{{ page.title }}</h1> 
             {{ content }}
-
-            <br><br>
-            Brian Ngan.
-            <br><br>
-            <button onclick="copy(this)" class="button is-white simple-alert" type="button"> <i class="fas fa-external-link-alt" style="color:gray; height: 14px;"></i>&nbsp Copy Link to This Article</button>
-
-            <script type="x-template" id="banner-template">
-              <div class="notification is-link is-light" role="alert">
-                Link Copied
-                <button class="delete"></button>
-              </div>
-
-            </script>
-
-          <script>
-            // Copy URL
-            function copy(that){
-              var inp =document.createElement('input');
-              document.body.appendChild(inp)
-              inp.value ="https://www.github.io//product/product-management-white-space-discipline.html/?utm_source=posts"
-              inp.select();
-              document.execCommand('copy',false);
-              inp.remove();
-              /* Alert the copied text */
-              // alert("Copied link");
-            }
-          </script>
           </div>
         </div>
       </div>
-      <br><br><br><br><br>
-    </section>
+    </div>
     <div class="col-xs-12" style="height:80px;"></div>
     {% include footer.html %}
     {% include javascript.html %}
