@@ -30,23 +30,20 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 require:
-  - bootstrap-sass
+  bootstrap-sass
 
-  plugins:
-  - bootstrap-sass
-  # - jekyll-bootstrap-sass
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-paginate
-  - jekyll-include-cache
-  - liquid_reading_time
-  - nokogiri
-  - jekyll-watch
-  - jemoji
-  - jekyll-tagging
-
-  
+plugins:
+- bootstrap-sass
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-paginate
+- jekyll-include-cache
+- liquid_reading_time
+- nokogiri
+- jekyll-watch
+- jemoji
+- jekyll-tagging
 
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
