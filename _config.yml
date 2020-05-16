@@ -31,8 +31,8 @@ tag_page_dir: tag
 
 require:
   - bootstrap-sass
-    - jekyll-tagging
-plugins:
+
+  plugins:
   - bootstrap-sass
   # - jekyll-bootstrap-sass
   - jekyll-feed
