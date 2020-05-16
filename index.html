@@ -23,7 +23,7 @@ title: Brian Ngan
       {% cycle 'add row' : '<div class="row">', "", "" %} 
           <div class="col-sm-4 d-flex align-items-stretch">
             <div class="card border-0" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
-              <div class="card-body">
+              <div class="card-body hover">
                 <h5>{{ post.title }}</h5> 
                 {{ post.excerpt }}
                 <span class="badge badge-pill badge-light">{{ post.tags }}</span>
@@ -50,7 +50,7 @@ title: Brian Ngan
     {% continue %}
     {% else %}
       <div class="card border-0" onclick="window.location.href = '{{ post.url }}';">
-        <div class="card-body" data-aos="fade-up">  
+        <div class="card-body hover" data-aos="fade-up">  
           <h5>{{ post.title }}</h5> 
          {{ post.excerpt }}
             <span class="badge badge-pill badge-light">{{ post.date | date_to_string }}</span>

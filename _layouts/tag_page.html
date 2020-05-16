@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  {% include head.html %}  
+  <body>
+    {% include navigation.html %}
+    <div class="col-xs-12" style="height:232px;"></div>
+    <section class="section">
+      <div class="container pl-4">
+        <div class="row">
+          <div class="col-sm-7" data-aos="fade-up">
+            <div id="tag-cloud"> <h5>Tags: </h5>
+              {{ site | tag_cloud | capitalize }}
+            </div>   
+            <div class="col-xs-12" style="height:24px;"></div>
+            <h2>{{ page.tag | capitalize }}</h2>
+            <ul>
+            {% for post in page.posts %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a><small class="text-muted"> | {{ post.date | date_to_string }}</small></li>
+              <!-- | Tags: {{ post | tags }}) -->
+            {% endfor %}
+            </ul>       
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="col-xs-12" style="height:80px;"></div>
+    {% include footer.html %}
+    {% include javascript.html %}
+  </body>
+</html>

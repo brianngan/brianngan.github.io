@@ -26,8 +26,12 @@ github_username:  brianngan
 markdown: kramdown
 # theme: minima
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+
 require:
   - bootstrap-sass
+    - jekyll-tagging
 plugins:
   - bootstrap-sass
   # - jekyll-bootstrap-sass
@@ -36,6 +40,12 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-include-cache
+  - liquid_reading_time
+  - nokogiri
+  - jekyll-watch
+  - jemoji
+  - jekyll-tagging
+
   
 
 permalink: /:categories/:title:output_ext
