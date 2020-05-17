@@ -1,5 +1,5 @@
 ---
-date: 2020-05-17T08:10:18.000+00:00
+date: 2020-03-17 16:10:18 +0800
 tags: []
 layout: posts
 title: 'Genie: COVID-19 Auto Financial Loan Scheme'
@@ -18,6 +18,7 @@ I was the product manager of the campaign; working closely with the product mark
 
 All in all, while the landing pages and forms are a straightforward experience, it was an enjoyable as it allowed me to design something interesting and to create a channel to provide aid to small businesses.
 
-References:
+**References:**
 
-[COVID Loan Scheme Page](https://genie.sg/loan/covid "COVID Loan Scheme") | [News Coverage](https://www.linkedin.com/posts/helen-neo-538b5469_genie-financial-services-to-grant-auto-loans-activity-6645918533681319936-yK-C "COVID Loan Scheme")
+* [COVID Loan Scheme Page](https://genie.sg/loan/covid "COVID Loan Scheme") 
+* [News Coverage](https://www.linkedin.com/posts/helen-neo-538b5469_genie-financial-services-to-grant-auto-loans-activity-6645918533681319936-yK-C "COVID Loan Scheme")
