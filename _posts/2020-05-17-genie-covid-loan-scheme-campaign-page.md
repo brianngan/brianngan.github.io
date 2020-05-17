@@ -8,13 +8,15 @@ categories: portfolio
 ---
 ![](/uploads/genie-covid-1.png)
 
-## Short Development Time
+## Working on a Tight Deadline 
 
-This campaign was put together in a less than a week by the product and product marketing teams. In response to the COVID-19 situation, Genie Financial Services created a new Auto Financial Assistance Scheme to help small business and PHV drivers. And the short development time was crucial to capitalise on the press release date.
+This campaign was put together in a less than a week by the product and product marketing teams. In response to the COVID-19 situation, Genie Financial Services quickly crafted a new Auto Financial Assistance Scheme to help small business and PHV drivers. 
 
-I designed the colour scheme and art style of the landing page and form; I also served as the product manager of the campaign; working closely with the product marketing stakeholders to get the marketing copy.
+The short development time was crucial because we needed to capitalise on the press release and because of its immediate and unexpected nature.
 
-All in all, while the landing pages and forms are easy to execute, it was an enjoyable experience that allowed me to design something interesting and to create a channel to provide aid to small businesses.
+I was the product manager of the campaign; working closely with the product marketing and business stakeholders to get the marketing copy and business rules to develop the page. In addition, I was the UX designer; designing the colour scheme and art style of the landing page and form.
+
+All in all, while the landing pages and forms are a straightforward experience, it was an enjoyable as it allowed me to design something interesting and to create a channel to provide aid to small businesses.
 
 References:
 
