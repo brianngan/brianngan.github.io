@@ -1,6 +1,7 @@
 ---
 date: 2020-03-17 16:10:18 +0800
-tags: []
+tags:
+- work
 layout: posts
 title: 'Genie: COVID-19 Auto Financial Loan Scheme'
 categories: portfolio
