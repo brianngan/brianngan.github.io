@@ -6,11 +6,11 @@ title: 'Genie: COVID-19 Auto Financial Loan Scheme'
 categories: portfolio
 
 ---
-![](/uploads/genie-covid-1.png)
+![](/uploads/genie-covid.png)
 
-## Working on a Tight Deadline 
+## Working on a Tight Deadline
 
-This campaign was put together in a less than a week by the product and product marketing teams. In response to the COVID-19 situation, Genie Financial Services quickly crafted a new Auto Financial Assistance Scheme to help small business and PHV drivers. 
+This campaign was put together in a less than a week by the product and product marketing teams. In response to the COVID-19 situation, Genie Financial Services quickly crafted a new Auto Financial Assistance Scheme to help small business and PHV drivers.
 
 The short development time was crucial because we needed to capitalise on the press release and because of its immediate and unexpected nature.
 
