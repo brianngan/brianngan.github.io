@@ -2,7 +2,7 @@
 date: 2020-05-17T08:10:18.000+00:00
 tags: []
 layout: posts
-title: 'Genie: COVID-19 Auto Financial Assistance Scheme'
+title: 'Genie: COVID-19 Auto Financial Loan Scheme'
 categories: portfolio
 
 ---
