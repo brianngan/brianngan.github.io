@@ -91,6 +91,8 @@ Carol is a news editor in a small publication and frequently files stories relat
 
    
 
+     
+
 ### Other Product Challenges
 
 Nested in the idea of a stock photography product were a few unique challenges. I may cover these in separate articles:
