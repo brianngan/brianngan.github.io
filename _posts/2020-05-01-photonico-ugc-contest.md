@@ -25,4 +25,4 @@ New repeatable content marketing partnerships that brought in over $100,000 in r
 
 ### Designs
 
-![](/uploads/photonico-contest.gif)
+![](/uploads/photo-contest.png)
