@@ -23,20 +23,14 @@ Photonico - a stock photography product with an emphasis on Asian culture and co
 
 We achieved several revenue-generating content marketing partnerships with government organisations, grew the community to hundreds of photo contributors, and grew traffic to 10,000s of monthly users.  We also made archival photos internally available to SPH staff.
 
-Also read...
+**Also read...**
 
 pdf: [INMA Photonico Case Submission](https://github.com/brianngan/brianngan.github.io/raw/master/uploads/Photonico%20INMA%20Submission.pdf) 
 
-## Product Challenges
-
-Nested in the idea of a stock photography product were a few unique challenges. I may cover these in separate articles:
-
-* Content Discovery and Recommendation
-* Licensing and Pricing Model
-* Photography Contribution and Royalties Model
-* Tagging Workflows
-
- 
+    Role: Product Manager
+    Period: 
+    	July 2018 - Sept 2018 (MVP)
+    	Sept 2018 - Aug 2019
 
 ## User Experience Case Study
 
@@ -81,3 +75,12 @@ Carol is a news editor in a small publication and frequently files stories relat
 ### UX Flow
 
 ![](/uploads/photonico-ux-flow.png)
+
+## Other Product Challenges
+
+Nested in the idea of a stock photography product were a few unique challenges. I may cover these in separate articles:
+
+* Content Discovery and Recommendation
+* Licensing and Pricing Model
+* Growing Photo Contributors and Royalties Model
+* Tagging Workflows
