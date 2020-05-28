@@ -25,7 +25,7 @@ We achieved several revenue-generating content marketing partnerships with gover
 
 Also read...
 
-[INMA Photonico Case Submission](https://github.com/brianngan/brianngan.github.io/blob/master/uploads/Photonico%20INMA%20Submission.pdf)
+[INMA Photonico Case Submission](https://github.com/brianngan/brianngan.github.io/raw/master/uploads/Photonico%20INMA%20Submission.pdf)
 
 ## Product Challenges
 
