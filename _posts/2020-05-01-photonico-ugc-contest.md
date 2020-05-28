@@ -17,7 +17,7 @@ To build user traffic to the website and to grow photo contributor user base.
 
 **The Feature**
 
-A branded UGC contest page for photographers to join in a photo contest based on hyperlocal themes.
+A branded user-generated content contest page for photographers to join in a photo contest based on hyperlocal themes.
 
 **The Outcome**
 
