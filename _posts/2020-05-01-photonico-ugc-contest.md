@@ -1,6 +1,7 @@
 ---
 date: 2020-05-01 00:15:25 +0800
-tags: []
+tags:
+- work
 layout: posts
 title: 'Photonico: UGC Contest'
 categories: portfolio
