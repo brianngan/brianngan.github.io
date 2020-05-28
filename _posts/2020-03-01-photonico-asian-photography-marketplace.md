@@ -3,7 +3,7 @@ date: 2020-05-01T04:03:38.000+00:00
 tags:
 - work
 layout: posts
-title: 'Photonico: Asian Photography Marketplace'
+title: 'Photonico: Asian Stock Photos'
 categories: portfolio
 
 ---
