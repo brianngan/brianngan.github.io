@@ -6,7 +6,7 @@ title: 'Photonico: UGC Contest'
 categories: portfolio
 
 ---
-![](/uploads/photonico-contest.gif)
+![](/uploads/william-bayreuther-hfk6xojqlfk-unsplash.jpg)
 
 ### TL;DR
 
@@ -21,3 +21,7 @@ A branded UGC contest page for photographers to join in a photo contest based on
 **The Outcome**
 
 New repeatable content marketing partnerships that brought in over $100,000 in revenue. Increase in traffic during contest periods and growth in photo contributor user base.
+
+### Designs
+
+![](/uploads/photonico-contest.gif)
