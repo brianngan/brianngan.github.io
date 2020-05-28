@@ -7,7 +7,7 @@ title: 'Photonico: Asian Photography Marketplace'
 categories: portfolio
 
 ---
-![Alt Text](/uploads/photonico.gif)
+![](/uploads/iscreen-mobile-tinified.jpg)
 
 ### TL;DR
 
@@ -78,20 +78,11 @@ Carol is a news editor in a small publication and frequently files stories relat
 
 **Designs**
 
-![](/uploads/screencapture-photonico-asia-2019-05-27-20_46_02.png)
+![](/uploads/photonico.gif)
 
-  
-
-  
 ![](/uploads/photonico-checkout.gif)
 
-  
-
 ![](/uploads/screencapture-photonico-asia-register-2019-05-27-17_36_28.png)
-
-   
-
- 
 
 ### Other Product Challenges
 
