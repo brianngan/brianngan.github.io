@@ -47,7 +47,7 @@ The recurring problem raised by Creatives is the problem of finding good asian-c
 **Research Findings**
 
 * Users buy photos when creating artwork/website/advertisements for clients/inhouse
-* Users have difficulty find niche and asian photos for clients
+* Users have difficulty finding niche and asian photos for clients
 * Users tend to feel that stock photo sites have complicated payments and pricing structures
 * Users tend to use Google to search for images, being agnostic to the stock image website unless their company has a subscription plan.
 * Users tend not to be the paying customer, payment is mete by the design manager or lead.
