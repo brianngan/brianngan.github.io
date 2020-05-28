@@ -79,9 +79,17 @@ Carol is a news editor in a small publication and frequently files stories relat
 **Designs**
 
 ![](/uploads/screencapture-photonico-asia-2019-05-27-20_46_02.png)
+
+  
+
+  
 ![](/uploads/photonico-checkout.gif)
 
+  
+
 ![](/uploads/screencapture-photonico-asia-register-2019-05-27-17_36_28.png)
+
+   
 
 ### Other Product Challenges
 
