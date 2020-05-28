@@ -1,5 +1,5 @@
 ---
-date: 2020-05-01 12:03:38 +0800
+date: 2020-05-01T04:03:38.000+00:00
 tags:
 - work
 layout: posts
@@ -23,8 +23,9 @@ Photonico - a stock photography product with an emphasis on Asian culture and co
 
 We achieved several revenue-generating content marketing partnerships with government organisations, grew the community to hundreds of photo contributors, and grew traffic to 10,000s of monthly users.  We also made archival photos internally available to SPH staff.
 
-<iframe width="420" height="315" src="/uploads/photonico.mp4" frameborder="0" allowfullscreen></iframe>
+Also read...
 
+[INMA Photonico Case Submission](https://github.com/brianngan/brianngan.github.io/blob/master/uploads/Photonico%20INMA%20Submission.pdf)
 
 ## Product Challenges
 
