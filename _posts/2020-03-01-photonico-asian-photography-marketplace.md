@@ -36,6 +36,8 @@ Nested in the idea of a stock photography product were a few unique challenges. 
 * Photography Contribution and Royalties Model
 * Tagging Workflows
 
+ 
+
 ## User Experience Case Study
 
 ### Product Discovery
