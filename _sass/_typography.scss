@@ -1,31 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
-$font-stack: 'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;;1,400;1,600;&display=swap');
+$font-stack: 'Crimson Text', serif;
 $enable-responsive-font-sizes: true;
 
+body {
+  font: 100% $font-stack;
+  color: $body-color;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+a.navbar-brand {
+  font-size: 64px;
+  font-weight: 600;
+  color: $gray;
+}
+
 a.nav-link {
-  font-family: $font-stack; 
-  color: $body-colour; 
+font-size: 24px;
+font-weight: 600;
+color: $body-color;
+}
+
+h1 {
+  font-size: 64px; 
+  line-height: 110%;
+}
+
+h5 {
+  font-size: 32px;
   font-weight: 600;
 }
 
-body {
-  font-family: $font-stack; 
+span.badge {
+  font-style: italic;
   font-size: 21px;
-  line-height: 1.4;
-  color: $body-colour;
+  font-weight: 600;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: $font-stack; 
-    font-weight: 600;
-    color: $body-colour;
-  }
+span.display-296 {
+  font-size: 104px;
+  line-height: 76px;
+  font-weight: 600;
+}
 
-a.navbar-brand {
-    font-family: $font-stack;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 40px;
-    color: $body-colour;
+span.subtle {
+  font-style: italic;
+  font-size: 21px;
+  font-weight: 600;
+}
+  
+@media (min-width: 992px) {
+  body {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 104px; 
+  }
+  span.display-296 {
+    font-size: 296px;
+    line-height: 166px;
+  }
 }

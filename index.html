@@ -3,19 +3,22 @@ layout: index
 title: Brian Ngan
 ---
 
-<div class="col-xs-12" style="height:144px;"></div>
+<div class="col-xs-12 height-mobile"></div>
 
-<div class="container pl-4" id="portfolio" data-aos="fade-up">
+<div class="container pl-4 text-right" id="portfolio" data-aos="fade-up">
   <h1>
     Portfolio
   </h1>
 </div>
-<!-- 
-{% for category in site.categories %}
-   {{ category | first | strip_html }}
-{% endfor %} -->
 
-<div class="col-xs-12" style="height:48px;"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-2 offset-10" data-aos="fade-up" >
+      <hr style="height:5px;background-color:#000" noshade />
+    </div>
+  </div> </div>
+<div class="col-xs-12" style="height:24px;"></div>
 
 <div class="container">
   {% for post in site.posts %}
@@ -23,11 +26,10 @@ title: Brian Ngan
       {% cycle 'add row' : '<div class="row">', "", "" %} 
           <div class="col-sm-4 d-flex align-items-stretch">
             <div class="card border-0" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
-              <div class="card-body hover">
+              <div class="card-body hover portfolio">
                 <h5>{{ post.title }}</h5> 
                 {{ post.excerpt }}
-                <span class="badge badge-pill badge-light">{{ post.tags }}</span>
-                <span class="badge badge-pill badge-light">{{ post.date | date_to_string }}</span>
+                <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
               </div>  
             </div>
           </div>
@@ -43,7 +45,15 @@ title: Brian Ngan
     Articles
   </h1>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-2 ml-2" data-aos="fade-up" >
+      <hr style="height:5px;background-color:#000" noshade />
+    </div>
+  </div> </div>
 <div class="col-xs-12" style="height:24px;"></div>
+
 <div class="container">
   {% for post in site.posts %}
     {% if post.categories contains 'portfolio' %}
@@ -51,13 +61,21 @@ title: Brian Ngan
     {% else %}
       <div class="card border-0" onclick="window.location.href = '{{ post.url }}';">
         <div class="card-body hover" data-aos="fade-up">  
-          <h5>{{ post.title }}</h5> 
-         {{ post.excerpt }}
-            <span class="badge badge-pill badge-light">{{ post.date | date_to_string }}</span>
-            <span class="badge badge-pill badge-light">{{ post.categories}}</span>
+          <div class="container">
+            <div class="row">
+              <div class="col-9">
+                <h5>{{ post.title }}</h5> 
+                {{ post.excerpt }}
+              </div>
+              <div class="col-3 mt-auto mr-auto">
+                <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
+              </div>
+            </div>
           </div>
-      </div>
-      <div class="col-xs-12" style="height:24px;"></div>
+
+        </div>
+      </div>  
+    <div class="col-xs-12" style="height:24px;"></div>
     {% endif %}
   {% endfor %}
 </div>
