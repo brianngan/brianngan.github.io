@@ -1,14 +1,13 @@
 ---
 layout: posts
-title:  A Monk’s Guide to a Clean House and Mind
-date:   2019-07-13 19:58:45 +0800
+title: A Monk’s Guide to a Clean House and Mind
+date: 2019-07-13T11:58:45.000+00:00
 categories: zen
+
 ---
+Why monks are so fastidious and disciplined when it comes to doing chores. Because this mindset turns mundane routine tasks into daily invitations to be mindful and grateful.
+
 Shoukei Matsumoto
-
-Why You Should Care
-
-Because it’s interesting to understand why monks are so fastidious and disciplined when it comes to doing chores. Because this mindset turns mundane routine tasks into daily invitations to be mindful and grateful.
 
 ## Big Idea
 
