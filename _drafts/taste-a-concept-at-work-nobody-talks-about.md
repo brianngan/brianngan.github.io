@@ -20,4 +20,4 @@ Whether we are conscious of it or not, we use taste to refine the work that we d
 
 ### Describing Dysfunction Through with Taste
 
-**_Taste is Influenced_** 
+**_Taste in Bad Faith._** In the hierarchical dynamics of the workplace, the default way of working is for employees to refine their work to suit their notion of the manager's taste. This is almost always acting in bad faith (in the sartrean sense). It's the do-as-my-boss-says attitude to work, which is intellectually lazy and irresponsible. This is the default way.
