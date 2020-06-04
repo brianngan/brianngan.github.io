@@ -12,9 +12,9 @@ Ken Kocienda perceives taste as one of the seven elements essential to Apple's s
 
 > Defining a refined sense of judgement and finding the balance that produces a pleasing and integrated whole.
 
-Taste is an internalised opinion of the ideal: what is good and what is bad? This relates to all contexts of business: Product, marketing, design, engineering, etc. 
+Taste is an internalised opinion of the ideal: _what is good and what is bad?_ This relates to all contexts of business: product, marketing, design, engineering, etc. 
 
-A manager's taste dictates how time is spent in a meeting, it sets the agenda. For instance, a manager could devote 45 minutes of a meeting to nitpicking an internal powerpoint slide if he favours upward image management. In the same way, an employee's taste dictates how he spends his time in critical thinking.
+A manager's taste dictates how time is spent in a meeting, it sets the agenda. For instance, a manager could devote 45 minutes of a meeting to nitpicking an internal powerpoint slide. In the same way, an employee's taste dictates how he spends his time in critical thinking. A product associate could invest all his effort on trying to fit a square into a circle by obsessing over a clean and well-documented product backlog; rather than investing that time to work with his stakeholders.
 
 Whether we are conscious of it or not, we use taste to direct our effort and refine the work that we do. It is an innate process of self-correction. We use taste to approve of other people's work. We choose what to critique and what to accept. And that creates a collective concept of taste -  it drives the outcome at the end of the day.
 
