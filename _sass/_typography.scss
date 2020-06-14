@@ -24,12 +24,17 @@ color: $body-color;
 
 h1 {
   font-size: 64px; 
+  font-weight: 700;
   line-height: 110%;
+}
+
+h2, h3, h4, h6 {
+  font-weight: 700;
 }
 
 h5 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 span.badge {
