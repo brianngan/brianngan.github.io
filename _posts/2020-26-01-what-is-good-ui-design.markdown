@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: What is Good UI Design?
-date: 2020-03-19 19:00:45 +0800
+date: 2020-05-21 19:00:45 +0800
 categories: ux-design
 
 ---
