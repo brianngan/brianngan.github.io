@@ -1,5 +1,5 @@
 ---
-date: 2020-06-04 11:36:27 +0800
+date: 2020-01-01 11:36:27 +0800
 tags: []
 layout: posts
 title: 'Taste: A Concept at Work Nobody Talks About'
