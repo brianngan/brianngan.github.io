@@ -117,6 +117,8 @@ img {
   left: 0;
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  -webkit-transition: top .3s;
+  transition-timing-function: cubic-bezier(.21,.61,.35,1);
   z-index: 100;
   background-color: #fafafa;
 }
@@ -125,6 +127,33 @@ img {
 #navbar a {
 float: left;
 display: block;
+}
+
+.nav-item {
+padding-left:16px;
+padding-right:16px;
+}
+
+p.brand-name {
+    background:url("https://media.giphy.com/media/l3q2Xl2Rd8wZfMCaI/source.gif") repeat;
+    background-position:10px;
+    -webkit-background-clip: text;
+    font-size: 400px;
+    font-weight: 700;
+    color: transparent;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+p.brand-name:hover {
+    background:url("https://media.giphy.com/media/26xBDqFwweEEQr36o/source.gif") repeat;
+    -webkit-background-clip: text;
+    transition-delay: 1s; /* delays for 1 second */
+    -webkit-transition-delay: 1s; /* for Safari & Chrome */
+    // -webkit-filter: blur(1px);
+    // filter: blur(1px);
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(.43,.05,.46,.44);
 }
 
 .btn {
