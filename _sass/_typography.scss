@@ -17,7 +17,6 @@ body {
 }
 
 a.navbar-brand {
-  font: 100% $font-stack;
   font-size: 64px;
   font-weight: 700;
   color: $gray;
@@ -29,8 +28,8 @@ font-weight: 700;
 color: $body-color;
 }
 
+
 h1 {
-  font: 100% $font-stack;
   font-size: 64px; 
   font-weight: 700;
   line-height: 110%;

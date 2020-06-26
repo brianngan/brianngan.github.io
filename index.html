@@ -40,9 +40,9 @@ title: Brian Ngan
   {% for post in site.posts %}
   {% if post.categories contains 'portfolio' %}
       {% cycle 'add row' : '<div class="row">', "", "" %} 
-        <div class="col-sm-4 d-flex align-items-stretch">
+        <div class="col-sm-4 d-flex align-items-stretch mb-3">
             <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
-              <div class="card-body hover portfolio">
+              <div class="card-body hover card-click">
                 {{ post.excerpt }}
                 <h5>{{ post.title }}</h5> 
                 <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
@@ -76,15 +76,15 @@ title: Brian Ngan
     {% if post.categories contains 'portfolio' %}
     {% continue %}
     {% else %}
-      <div class="card border-0" onclick="window.location.href = '{{ post.url }}';">
-        <div class="card-body hover" data-aos="fade-up">  
+      <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
+        <div class="card-body hover card-click">  
           <div class="container">
             <div class="row">
-              <div class="col-9">
+              <div class="col-sm-9">
                 <h5>{{ post.title }}</h5> 
                 {{ post.excerpt }}
               </div>
-              <div class="col-3 mt-auto mr-auto">
+              <div class="col-sm-3 mt-auto mr-auto">
                 <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
               </div>
             </div>
@@ -92,7 +92,7 @@ title: Brian Ngan
           
         </div>
       </div>  
-      <div class="col-xs-12" style="height:24px;"></div>
+      <div class="col-xs-12" style="height:48px;"></div>
       {% endif %}
       {% endfor %}
     </div>
