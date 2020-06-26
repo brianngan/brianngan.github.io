@@ -4,19 +4,14 @@ body {
     margin-right: auto;
 }
 
-div.portfolio h5 {
-    height: 64px;
-}
-
 div.height-mobile{
     height: 104px;
 }
 
-@media (min-width: 992px) {
-    div.height-mobile{
-        height: 204px;
-    }
-    div.portfolio h5 {
-        height: 132px;
-    }
-  }
+
+hr {
+    background-color: $body-color;
+    border: 1px solid;
+    border-radius: 100px;
+    height: 4px;
+}

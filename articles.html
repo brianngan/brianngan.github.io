@@ -1,0 +1,65 @@
+---
+layout: index
+title: Brian Ngan
+---
+
+<div class="col-xs-12 height-mobile"></div>
+<div class="col-xs-12" style="height:144px;" id="articles"></div>
+
+<div class="container pl-4" data-aos="fade-up">
+  <h1 class="display-1">
+    Articles
+  </h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-2 ml-2" data-aos="fade-up" >
+      <hr data-aos="fade-up" >
+    </div>
+  </div> </div>
+  <div class="col-xs-12" style="height:24px;"></div>
+
+  <div class="container">
+    <h2>Categories</h2>
+    <a class="btn btn-primary" href="/articles.html" role="button">All</a>
+    {% assign categories_list = site.categories %}
+      {% if categories_list.first[0] == null %}
+        {% for category in categories_list %}
+          <a class="btn btn-primary" href="#{{ category | downcase | downcase | url_escape | strip | replace: ' ', '-' }}" role="button">{{ category | capitalize  }} <span class="badge badge-pill badge-primary">({{ site.tags[category].size }})</span></a>
+        {% endfor %}
+      {% else %}
+        {% for category in categories_list %}
+        <a class="btn btn-primary" href="#{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}" role="button">{{ category[0] | capitalize  }} <span class=" badge-pill badge-primary">{{ category[1].size }}</span></a>
+        {% endfor %}
+      {% endif %}
+    {% assign categories_list = nil %}
+  </div>
+
+  <div class="col-xs-12" style="height:24px;"></div>
+  
+<div class="container">
+  {% for post in site.posts %}
+    {% if post.categories contains 'portfolio' %}
+    {% continue %}
+    {% else %}
+      <div class="card border-0" onclick="window.location.href = '{{ post.url }}';">
+        <div class="card-body hover" data-aos="fade-up">  
+          <div class="container">
+            <div class="row">
+              <div class="col-9">
+                <h5>{{ post.title }}</h5> 
+                {{ post.excerpt }}
+              </div>
+              <div class="col-3 mt-auto mr-auto">
+                <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>  
+      <div class="col-xs-12" style="height:24px;"></div>
+      {% endif %}
+      {% endfor %}
+    </div>

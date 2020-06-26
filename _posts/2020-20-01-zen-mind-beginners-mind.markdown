@@ -4,6 +4,16 @@ title:  Zen Mind, Beginner's Mind
 date:   2019-07-13 19:58:45 +0800
 categories: zen
 ---
+# Test Title
+This post is based on a chapter in the book: "User Interface Design For Programmers". You can find the book at this Joel On Software.
+## Test Title
+This post is based on a chapter in the book: "User Interface Design For Programmers". You can find the book at this Joel On Software.
+### Test Title
+This post is based on a chapter in the book: "User Interface Design For Programmers". You can find the book at this Joel On Software.
+#### Test Title
+This post is based on a chapter in the book: "User Interface Design For Programmers". You can find the book at this Joel On Software.
+##### Test Title
+This post is based on a chapter in the book: "User Interface Design For Programmers". You can find the book at this Joel On Software.
 The mind of the beginner is empty, free of the habits of the expert, ready to accept, to doubt and open to all possibilities.
 
 For Zen students, the most important thing is not to be dualistic. Our "original mind" includes everything within itself. You should not lose your self-sufficient state of mind. this does not mean a closed mind, but actually an empty mind and a ready mind. If your mind is empty, it is always ready for anything, it is open to everything.. In the beginner's mind, there are many possibilities; in the expert's mind, there are few.

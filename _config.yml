@@ -40,14 +40,13 @@ plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-include-cache
-- liquid_reading_time
-- nokogiri
-- jekyll-watch
-- jemoji
-- jekyll-tagging
+# - liquid_reading_time
+# - nokogiri
+# - jekyll-watch
+# - jemoji
+# - jekyll-tagging
 
   
-
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
 
