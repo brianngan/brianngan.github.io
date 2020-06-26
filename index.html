@@ -39,7 +39,7 @@ title: Brian Ngan
   {% for post in site.posts %}
   {% if post.categories contains 'portfolio' %}
       {% cycle 'add row' : '<div class="row">', "", "" %} 
-        <div class="col-sm-4 d-flex align-items-stretch mb-3">
+        <div class="col-md-4 d-flex align-items-stretch mb-3">
             <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
               <div class="card-body hover card-click">
                 {{ post.excerpt }}
@@ -55,7 +55,7 @@ title: Brian Ngan
     {% endif %}
   {% endfor %}
   <div class="row"> 
-    <div class="col-sm-4 d-flex align-items-stretch mb-3">
+    <div class="col-md-4 d-flex align-items-stretch mb-3">
       <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = 'https://www.notion.so/Designing-Photonico-b38f24782ad44ea18d9829e24e75ebdb';">
         <div class="card-body hover card-click">
           <img src="https://media.giphy.com/media/cxwrarRJ2tRMQ/giphy.gif" style="object-fit: cover; height: 210px;"> 
@@ -64,7 +64,7 @@ title: Brian Ngan
         </div>  
       </div>
     </div>
-    <div class="col-sm-4 d-flex align-items-stretch mb-3">
+    <div class="col-md-4 d-flex align-items-stretch mb-3">
       <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = '/About.html/#contact';">
         <div class="card-body hover card-click dark">
           <img src="/assets/brian-ngan.jpg" style="object-fit: cover; height: 210px;"> 
@@ -103,6 +103,7 @@ title: Brian Ngan
             <div class="row  py-2">
               <div class="col-sm-9">
                 <h5>{{ post.title }}</h5> 
+                <div class="col-xs-12" style="height:8px;"></div>
                 {{ post.excerpt }}
               </div>
               <div class="col-sm-3 mt-auto mr-auto">
