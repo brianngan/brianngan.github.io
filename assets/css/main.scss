@@ -23,6 +23,21 @@ img {
     display: block;
 }
 
+span.dark{
+    color: #fff;
+}
+
+.jumbotron.jumbotron-fluid.white {
+    background-color: #fff;
+}
+
+.card-body.dark {
+    border-radius: 8px;
+    padding: 24px;
+    color: #fff;
+    background-color: #3b7bab;
+}
+
 .card-click {
     transition: box-shadow 0.3s, transform 0.3s;
     transition-timing-function: cubic-bezier(.21,.61,.35,1);
@@ -140,20 +155,27 @@ p.brand-name {
     -webkit-background-clip: text;
     font-size: 400px;
     font-weight: 700;
+    line-height: 80%;
     color: transparent;
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-position-x: 82%;
+    background-position-y: 10%;
 }
 
 p.brand-name:hover {
-    background:url("https://media.giphy.com/media/26xBDqFwweEEQr36o/source.gif") repeat;
+    // background:url("https://media.giphy.com/media/26xBDqFwweEEQr36o/source.gif") repeat;
+    background:url("https://media.giphy.com/media/WRv7DGdAYiQhfWE5Lo/source.gif") repeat;
+    // background:url("https://media.giphy.com/media/1xVc4iczVXc2gt9oX1/source.gif") repeat;
+    // background:url("https://media.giphy.com/media/VcxBxktiWGaiaG05HO/source.gif") repeat;
     -webkit-background-clip: text;
     transition-delay: 1s; /* delays for 1 second */
     -webkit-transition-delay: 1s; /* for Safari & Chrome */
     // -webkit-filter: blur(1px);
     // filter: blur(1px);
-    transition-duration: 5s;
+    line-height: 80%;
+    transition-duration: 2s;
     transition-timing-function: cubic-bezier(.43,.05,.46,.44);
+    background-position-x: 82%;
+    background-position-y: 30%;
 }
 
 .btn {
@@ -198,12 +220,19 @@ footer.bg-dark {
     padding: 0px;
     padding-bottom:8px;
     padding-top: 8px;
-    width: 25%;
-    background-color: #f8f8f8;
+    background-color: $gray-100;
     text-align: center;
+    width: 50%;
     z-index: 999;
     border-radius: 7px;
     opacity: 98%;
+}
+
+@media (min-width: 768px) {
+    #navbar-mobile-menu{
+         width: 20%;
+         border-radius: 8px 8px 0px 0px;
+    }
 }
 
 .navbar-mobile-btn {
@@ -211,10 +240,38 @@ footer.bg-dark {
     padding-bottom: 0px;
     font-size: 16px;
     font-weight: 600;
-    background-color: #f8f8f8;
+    background-color: $gray-100;
 }
 
 .navbar-mobile-content {
     display: none;
     padding: 8px;
+}
+
+a.nav-link {
+    transition: box-shadow 0.3s, transform 0.3s;
+    transition-timing-function: cubic-bezier(.21,.61,.35,1);
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &:hover {
+        transform: scale(1.015);
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(.21,.61,.35,1);        
+    }
+
+    &:hover:active {
+        background-color: #292929;
+        color: #fff;
+        transform: scale(1);
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(.21,.61,.35,1);
+    }
+}
+
+.navbar-mobile-btn, .navbar-mobile-content {
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.21,.61,.35,1);
+
 }

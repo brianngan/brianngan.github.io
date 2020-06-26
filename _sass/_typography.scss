@@ -17,9 +17,15 @@ body {
 }
 
 a.nav-link {
-font-size: 24px;
-font-weight: 700;
-color: $body-color;
+  font-size: 16px;
+  font-weight: 600;
+  color: $body-color;
+}
+
+button.navbar-mobile-btn{
+  font-size: 16px;
+  font-weight: 800;
+  color: $body-color;
 }
 
 
@@ -60,12 +66,6 @@ span.badge {
   font-weight: 600;
 }
 
-span.display-296 {
-  font-size: 104px;
-  line-height: 76px;
-  font-weight: 600;
-}
-
 span.subtle {
   font-style: italic;
   font-size: 16px;
@@ -83,10 +83,5 @@ span.subtle {
 
   h1.display-2 {
     font-size: 64px;
-  }
-
-  span.display-296 {
-    font-size: 296px;
-    line-height: 166px;
   }
 }

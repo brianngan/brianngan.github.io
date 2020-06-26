@@ -6,15 +6,14 @@ title: Brian Ngan
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4" data-aos="zoom-in-up" data-aos-duration="1000">
-      <p class="brand-name align-top">b:</p>
+    <div class="col-md-4" data-aos="zoom-in-up" data-aos-offset="0" data-aos-duration="800" data-aos-mirror="false"
+    data-aos-once="true">
+      <p class="brand-name">b:</p>
     </div>
-    <div class="col-sm-6">
-      <h3 data-aos="fade-right"  data-aos-delay="1000">Brian Ngan</h3>
-      <h5 data-aos="fade-right"  data-aos-delay="1100">Product Manager</h5>
-      <h5 data-aos="fade-right"  data-aos-delay="1200">UX Designer</h5>
-
-
+    <div class="col-md-8">
+      <h3 data-aos="fade-right"  data-aos-delay="800">Brian Ngan</h3>
+      <h5 data-aos="fade-right"  data-aos-delay="900">Product Manager</h5>
+      <h5 data-aos="fade-right"  data-aos-delay="1100">UX Designer</h5>
 
     </div>
   </div>
@@ -37,22 +36,6 @@ title: Brian Ngan
   <div class="col-xs-12" style="height:24px;"></div>
   
 <div class="container">
-  <div class="container">
-    <div class="row">
-      <div class="col-5" data-aos="fade-up" >
-        <h5>UX Design Portfolio</h5>
-        <ul>
-          <!-- <li data-aos="fade-up"><a href="https://www.notion.so/Designing-Appointments-for-SAAS-2bee31e1865a4cb19f51e4d2a4bc80c8" target="_blank">Designing Appointments for Saas</a></li> -->
-          <li data-aos="fade-up"><a href="https://www.notion.so/Designing-Photonico-b38f24782ad44ea18d9829e24e75ebdb" target="_blank">Designing Photonico</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-xs-12" style="height:80px;"></div>
-
-
-<div class="container">
   {% for post in site.posts %}
   {% if post.categories contains 'portfolio' %}
       {% cycle 'add row' : '<div class="row">', "", "" %} 
@@ -71,7 +54,29 @@ title: Brian Ngan
       {% continue %}
     {% endif %}
   {% endfor %}
+  <div class="row"> 
+    <div class="col-sm-4 d-flex align-items-stretch mb-3">
+      <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = 'https://www.notion.so/Designing-Photonico-b38f24782ad44ea18d9829e24e75ebdb';">
+        <div class="card-body hover card-click">
+          <img src="https://media.giphy.com/media/cxwrarRJ2tRMQ/giphy.gif" style="object-fit: cover; height: 210px;"> 
+        <h5 class="mt-3">Designing Photonico</h5> 
+          <span class="subtle">portfolio  |  10 May 2019</span>
+        </div>  
+      </div>
+    </div>
+    <div class="col-sm-4 d-flex align-items-stretch mb-3">
+      <div class="card boxshadow border-0" data-aos="fade-up" onclick="window.location.href = '/About.html/#contact';">
+        <div class="card-body hover card-click dark">
+          <img src="/assets/brian-ngan.jpg" style="object-fit: cover; height: 210px;"> 
+        <h5 class="mt-3">See my full portfolio. <br> Get in Touch!</h5> 
+          <span class="subtle dark">brianngan92@gmail.com</span>
+        </div>  
+      </div>
+    </div>
+
+  </div>
 </div>
+
 <div class="col-xs-12" style="height:144px;" id="articles"></div>
 <div class="container pl-4" data-aos="fade-up">
   <h1 class="display-1">
