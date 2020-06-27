@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-
-
-$font-stack-serif: 'Crimson Text', serif;
-$enable-responsive-font-sizes: true;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=block');
 
 $font-stack: 'nunito', san-serif;
 $enable-responsive-font-sizes: true;
+
+// All
 
 body {
   font: 100% $font-stack;
@@ -16,72 +13,121 @@ body {
   line-height: 1.4;
 }
 
+p.hero-1 {
+  font-size: 400px;
+  font-weight: 700;
+  line-height: 80%;
+}
+p.hero-2 {
+  font-size: 400px;
+  font-weight: 700;
+  line-height: 80%;
+}
 a.nav-link {
-  font-size: 16px;
+  cursor: pointer;
+  font-size: 21px;
   font-weight: 600;
   color: $body-color;
 }
-
-button.navbar-mobile-btn{
-  font-size: 16px;
-  font-weight: 800;
+a {
+  text-decoration: underline;
+  cursor: pointer;
   color: $body-color;
+
+  &:hover {
+    position: relative;
+  }
+  
+  &.nav-link {
+    text-decoration: none;
+  }
 }
 
-
+button.navbar-mobile-btn{
+  font-size: 21px;
+  font-weight: 800;
+  color: $gray;
+}
 h1 {
-  font-size: 64px; 
+  font-size: 52px; 
   font-weight: 700;
   line-height: 110%;
 }
-
 h1.display-1 {
+  font-size: 104px; 
+  font-weight: 700;
+}
+h1.display-2 {
   font-size: 64px; 
   font-weight: 700;
 }
-
-h1.display-2 {
-  font-size: 48px; 
-  font-weight: 700;
-}
-
 h2 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
-h3 {
   font-size: 36px;
   font-weight: 700;
 }
-
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
 h5 {
   font-size: 24px;
   font-weight: 700;
 }
+p.lead {
+  
+}
+
 
 span.badge {
   font-style: italic;
   font-size: 21px;
   font-weight: 600;
 }
-
 span.subtle {
   font-style: italic;
   font-size: 16px;
   font-weight: 400;
   color: $gray;
 }
-  
-@media (min-width: 992px) {
+
+// Mobile
+@include media-breakpoint-down(sm) {
   body {
-    font-size: 24px;
+    font-size: 19px;
   }
   h1.display-1 {
-    font-size: 104px; 
+    font-size: 64px; 
   }
 
   h1.display-2 {
-    font-size: 64px;
+    font-size: 48px;
   }
+  p.hero-2 {
+    font-size: 120px;
+  }
+  a.nav-link {
+    font-size: 19px;
+  }
+  button.navbar-mobile-btn{
+    font-size: 19px;
+  }
+}
+// Tablet
+@include media-breakpoint-between(sm, lg) {
+  body {
+    font-size: 21px;
+  }
+  h1.display-1 {
+    font-size: 64px; 
+  }
+  p.hero-1 {
+    font-size: 320px;
+    line-height: 100%;
+  }
+  p.hero-2 {
+    font-size: 220px;
+  }
+}
+// Desktop
+@include media-breakpoint-up(xl) {
 }
