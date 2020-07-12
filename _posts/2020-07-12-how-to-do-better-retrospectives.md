@@ -16,8 +16,12 @@ The exception to this will be staff or managers who probably don't understand th
 
 ## I hate retrospectives too? What can I do instead?
 
-If you are a manager that feels this way. Good. It's your job to stop retrospectives and start doing your job of listening to and engaging with your employees. Employees will have things that block their progress and affect their motivation. Knowing just enough to address these issues is part of your responsibility to the team and the company. 
+If you are a manager that feels this way. Good. It's your job to stop retrospectives and start doing your job of listening to and engaging with your employees. Employees will have things that block their progress and affect their motivation. Knowing just enough to address these issues is part of your responsibility to the team and the company.
 
 The reality is that teams will air their grievances and celebrate their successes in their own way. On a private slack channel, over a beer, or during lunch. Those are the real retrospectives. You may be in some of those conversations, but by default, you will never (and should not aspire to be) in all of these conversations.
 
 If you are a team member that feels this way, I empathize with your predicament. You can join the silent protest by going to my random retrospective response generator at [link](/404.html "link"). Let's stand together is silent protest by offering more generic and plain-bread responses to quietly let the world know about the white-office superficiality of the retrospective.
+
+### Hello. My name is human. And sometimes things go well and some times things go not so well.
+
+![](https://media.giphy.com/media/26u484cfXLZasp0ze/giphy.gif)
