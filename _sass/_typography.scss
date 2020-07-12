@@ -14,7 +14,7 @@ body {
 }
 
 p {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
   line-height: 2.4rem;
 }
 
@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.6rem;
 }
@@ -99,6 +99,57 @@ h5 {
   font-weight: 700;
 }
 
+li {
+  margin-bottom: 2rem;
+}
+ol, ul, dl {
+  padding-inline-start: 36px;
+}
+
+blockquote{
+  font-size: 1.4em;
+  margin: 48px 0px 3.6rem 0px;
+  font-style:italic;
+  color: $gray-100;
+  padding:1.2em 30px 1.2em 50px;
+  // border-left:8px solid $blue ;
+  line-height:1.6;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.014),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.04),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.052),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.066),
+  0 100px 80px rgba(0, 0, 0, 0.02)
+  ;
+
+  &::before{
+    content: "\201C";
+    color:#afcde4;
+    font-size:3em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  &::after{
+    content: '';
+  }
+
+  & p{
+    display:block;
+    color:$primary;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top:1em;
+    margin-bottom: 0;
+
+  }
+}
 
 span.badge {
   font-style: italic;
@@ -122,10 +173,30 @@ span.subtle {
   }
 
   h1.display-2 {
-    font-size: 48px;
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem; 
   }
   p.hero-2 {
     font-size: 120px;
+  }
+  p {
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  ol, ul, dl {
+    padding-inline-start: 24px;
   }
   a.nav-link {
     font-size: 19px;
@@ -133,6 +204,17 @@ span.subtle {
   button.navbar-mobile-btn{
     font-size: 19px;
   }
+
+  blockquote {
+    margin: 24px 0px 2.4rem 0px;
+    
+  }
+  blockquote p {
+    font-size: 16px;
+    line-height: 1.4rem;
+    font-weight: 400;
+  }
+
 }
 // Tablet
 @include media-breakpoint-between(sm, lg) {
