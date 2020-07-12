@@ -234,6 +234,31 @@ padding-right:16px;
     transform: rotate(360deg);
 }
 
+i.fa-home {
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 16px;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    background-color: $gray-400;
+
+    &:hover {
+        background-color: $primary;
+        transform: scale(1.2);
+        transform: perspective(1px) translateZ(0);
+        transform: scale(1.015);
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(.21,.61,.35,1);
+    }
+    &:hover:active {
+        background-color: $primary;
+    }
+}
+
+
+
+
 .btn-hero {
     background-color: #3b7bab;
     text-decoration: none;
