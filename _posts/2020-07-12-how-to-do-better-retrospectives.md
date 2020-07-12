@@ -22,6 +22,6 @@ The reality is that teams will air their grievances and celebrate their successe
 
 If you are a team member that feels this way, I empathize with your predicament. You can join the silent protest by going to my random retrospective response generator at [link](/404.html "link"). Let's stand together is silent protest by offering more generic and plain-bread responses to quietly let the world know about the white-office superficiality of the retrospective.
 
-### Hello. My name is human. And sometimes things go well and some times things go not so well.
+### "Hello. My name is human. And sometimes things go well and some times things go not so well."
 
 ![](https://media.giphy.com/media/26u484cfXLZasp0ze/giphy.gif)
