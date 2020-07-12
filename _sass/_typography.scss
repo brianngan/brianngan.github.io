@@ -13,6 +13,11 @@ body {
   line-height: 1.4;
 }
 
+p {
+  margin-bottom: 3.2rem;
+  line-height: 2.4rem;
+}
+
 p.hero-1 {
   font-size: 400px;
   font-weight: 700;
@@ -80,10 +85,12 @@ h1.display-3 {
 h2 {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.2rem;
 }
 h3 {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.6rem;
 }
 h5 {
   font-size: 24px;
