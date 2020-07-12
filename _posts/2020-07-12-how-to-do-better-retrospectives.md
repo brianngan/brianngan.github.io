@@ -17,15 +17,15 @@ The workplace is a political, judgmental and professional. As much as we pretend
 
 Retrospectives will tend towards this garden variation of topics: A pedestal to humble-brag. An award ceremony (_thank you so and so for this sprint's effort_). Lip service. Airing collectively-known and surface-level problems. A _veiled_ blame game. A _blatant_ blame game.
 
-The exception to this will be staff or managers who probably don’t understand the dynamics at play and are being overly earnest to share.
+The exception to these topics would be when a staff or manager is overly earnest to share because he/she is oblivious to the dynamics at play.
 
 ## I hate Retrospectives too? What can I do instead?
 
-If you are a manager that feels this way. Good. It’s your job to stop Retrospectives and start doing your job of listening to and engaging with your employees. Employees will have things that block their progress and affect their motivation. Knowing just enough to address these issues is part of your responsibility to the team and the company.
+**If you are a manager that feels this way**. Good. You may consider stopping Retrospectives and do the hard work of listening to and engaging with your employees. Employees will have things that block their progress and affect their motivation. Knowing enough to address these issues is part of your responsibility to the team and the company. This often requires earning the trust of your team members and that is difficult.
 
-The reality is that teams will air their grievances and celebrate their successes in their own way. On a private slack channel, over a beer, or during lunch. Those are the real Retrospectives. You may be in some of those conversations, but by default, you will never (and should not aspire to be) in all of these conversations.
+The reality is that team members will air their grievances, share their learnings and celebrate their successes in their own way, at their own time. It could happen on a private slack channel, over a beer, or during lunch. Those are the closest to when Retrospectives questions are addressed. You may be in some of those conversations, but by default, you will never (_and should not aspire to be_) in all of them.
 
-If you are a team member that feels this way, I empathize with your predicament. You can join the silent protest by going to my random Retrospective response generator at [link](https://brianngan.github.io/404.html "link") (_not done_). Let’s stand together is silent protest by offering more generic and plain-bread responses to quietly let the world know about the modern personal hell that is the Retrospective.
+**If you are a team member that feels this way**, I empathize with your predicament. You can join the silent protest by going to my random Retrospective response generator at [link](https://brianngan.github.io/404.html "link") (_not done_). Let’s stand together in silent protest by offering more generic and house-brand-white-bread responses to let the world know about the modern software development hell that is the Retrospective.
 
 > “Hello. My name is human. And sometimes things go well and some times things go not so well. Can I go now?”
 
