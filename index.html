@@ -94,6 +94,54 @@ title: Brian Ngan
 </div>
 <div class="col-xs-12" style="height:24px;"></div>
   
+<script type="text/javascript">
+  function filterUsingCategory(selectedCategory) {
+    var id = 0;
+    {% for post in site.posts %}
+      var cats = {{ post.categories | jsonify }}
+
+      var postDiv = document.getElementById(++id);
+      postDiv.style.display = (selectedCategory == 'All' || cats.includes(selectedCategory)) 
+        ? 'unset' 
+        : 'none';
+    {% endfor %}
+  }
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <button id="All" class="btn mb-1" data-aos="fade-up" onclick="filterUsingCategory('All')">Show All</button>
+      {% assign categories = site.categories | sort %}
+      {% for category in categories %}
+        {% assign cat = category | first %}
+        <button id="{{ cat }}" class="btn mb-1" onclick="filterUsingCategory(this.id)">{{ cat }}</button>
+      {% endfor %}
+    </div>
+  </div> 
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 mb-1">
+      {% assign id = 0 %}
+      {% for post in site.posts %}
+        {% assign id = id | plus:1 %}
+        
+        <div class="post" id="{{id}}" data-aos="fade-up" onclick="window.location.href = '{{ post.url }}';">
+          <p class="itemInteriorSection">
+          <h5>{{ post.title }}</h5><br />
+            {{ post.date | date: "%B %d, %Y" }}
+            {{ post.excerpt }}
+          </p>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+<!-- 
+
 <div class="container">
   {% for post in site.posts %}
     {% if post.categories contains 'portfolio' %}
@@ -119,9 +167,9 @@ title: Brian Ngan
       <div class="col-xs-12" style="height:36px;"></div>
       {% endif %}
       {% endfor %}
-    </div>
+    </div> -->
 
-    <div class="col-xs-12" style="height:48px;"></div>
+<div class="col-xs-12" style="height:48px;"></div>
 <div class="container"><h4>Picture Of The Day</h4></div>
 <div class="col-xs-12" style="height:24px;"></div>
   <img src="https://source.unsplash.com/daily?architecture,white,minimal" alt="picture-of-the-day">
