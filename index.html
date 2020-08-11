@@ -115,7 +115,7 @@ title: Brian Ngan
       {% assign categories = site.categories | sort %}
       {% for category in categories %}
         {% assign cat = category | first %}
-        <button id="{{ cat }}" class="btn mb-1" onclick="filterUsingCategory(this.id)">{{ cat }}</button>
+        <button id="{{ cat }}" class="btn mb-1" data-aos="fade-up" onclick="filterUsingCategory(this.id)">{{ cat }}</button>
       {% endfor %}
     </div>
   </div> 
