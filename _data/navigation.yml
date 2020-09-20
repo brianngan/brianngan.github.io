@@ -2,7 +2,7 @@
   url: /#articles
 
 - text: Portfolio
-  url: /portfolio/#portfolio
-
+  url: /portfolio/
+  
 - text: About
   url: /About.html
