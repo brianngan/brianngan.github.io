@@ -1,13 +1,12 @@
 ---
 date: 2020-09-20 20:42:12 +0800
-tags:
-- philosophy
+tags: []
 layout: posts
 title: 'Reaffirming: Bullshit Jobs'
-categories: Philosophy
+categories: philosophy
 
 ---
-**Bullshit Jobs** is an important book to me. It struck a cord with me when observing my work environment in marketing at the largest news organisation in Singapore. 
+**Bullshit Jobs** is an important book to me. It struck a chord with me when observing my work environment in marketing at the largest news organisation in Singapore. 
 
 As a fresh graduate, I used to stare and wonder what everybody else did. So many jobs existed because the printing press did not have the smarts to automate a process, because of some obscure administrative or legal quirk, because some board member wanted innovation or because heads just wanted to build their divisions into empires. **Bullshit Jobs** put that all into perspective and made sense to me.
 
