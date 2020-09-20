@@ -1,57 +1,29 @@
-<!-- <nav id="navbar" class="navbar navbar-expand-lg">
-  <div class="container pl-4">
-    <div class="collapse navbar-collapse d-sm-none d-md-none" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto" data-aos="fade-down">
-        <li class="nav-item active">
-          <a class="nav-link btn" href="/">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link btn" href="https://github.com/brianngan/brianngan.github.io">Github</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link btn" href="/About.html">About</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link btn" href="#articles">Articles</a>
-        </li>        
-        <li class="nav-item active">
-          <a class="nav-link btn" href="/">Portfolio</a>
+<div class="mobile-hide col-lg-1 col-sm-3 col-1 d-flex align-items-stretch">
+  <div class="mobile-hide container" id="sticky">
+    <div class="nav">
+      <ul class="nav-browser">
+        {% for nav in site.data.navigation %}
+          <li {% if nav.url == page.url %} class="active"{% endif %}><a href="{{ nav.url }}" class="nav-link">{{ nav.text | downcase }}</a></li>
+        {% endfor %}
+        <li>
+          <a class="nav-link" href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
         </li>
       </ul>
     </div>
-  </div>
-  
-</nav> -->
-
-<!-- <div class="container d-md-block d-lg-none" id="navbar-mobile-menu"> -->
-<div class="container" id="navbar-mobile-menu">
-
-  <button type="button" class="navbar-mobile-btn btn btn-block text-left"> <i class="fas fa-bars"></i> &nbsp; MENU</button>
-    <div class="navbar-mobile-content">
-      <div style="height:8px;"></div>
-      <div id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active py-2 text-left">
-          <a class="nav-link pl-3" href="/">Home</a>
-        </li>
-        <li class="nav-item active py-2 text-left">
-          <a class="nav-link pl-3" href="/#articles">Articles</a>
-        </li>        
-        <li class="nav-item active py-2 text-left">
-          <a class="nav-link pl-3" href="/#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item active py-2 text-left">
-          <a class="nav-link pl-3" href="/About.html">About</a>
-        </li>
-        <li class="nav-item active py-2 text-left">
-          <a class="nav-link pl-3" href="https://github.com/brianngan/brianngan.github.io">Github</a>
-        </li>
-        <!-- <li class="nav-item active">
-          <a class="nav-link btn" href="/tag.html">Tags</a>
-        </li> -->
-      </ul>
-    </div>
-  </div>
-
-
+  </div> 
 </div>
+
+<div class="mobile-show col-12">
+  <div class="row">    
+    <span class="mx-4 subtle">navigate:</span>
+  </div>
+  <div class="row" style="height:4px"></div>
+  <div class="nav mx-2">
+    {% for nav in site.data.navigation %}
+    <a {% if nav.url == page.url %} class="active"{% endif %}><a href="{{ nav.url }}" class="nav-tab mr-4">{{ nav.text | downcase }}</a></li>
+    {% endfor %}
+    <a class="nav-tab" href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
+    </li>
+  </div>
+  <div class="mobile-show col-12" style="height:56px"></div>
+</div> 

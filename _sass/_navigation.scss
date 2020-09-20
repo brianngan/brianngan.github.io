@@ -1,0 +1,25 @@
+#sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 70px;
+  height: fit-content;
+}
+
+ul.nav-browser { 
+  padding: 0px;
+  & li {
+    list-style:none;
+    width: fit-content;
+
+    &.active a {
+      border-bottom: 4px solid;
+    }
+
+    & a {
+      display: block;
+      padding-left: 0px;
+      padding-top: 24px;
+      padding-right: 0px;
+    }
+  }
+}

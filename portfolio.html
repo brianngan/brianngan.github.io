@@ -1,36 +1,23 @@
 ---
-layout: index
+layout: main
 title: Brian Ngan
 ---
-<h1>
-  Posts
-</h1>
-
-{% for category in site.categories %}
-   {{ category | first | strip_html }}
-{% endfor %}
-
+<div class="row" id="portfolio">
   <div class="container">
     {% assign portfolio = site.posts | where_exp: "post", "post.categories contains 'portfolio'" %}
     {% for post in portfolio %}
-        {% cycle 'add row' : '<div class="row">', "", "" %} 
-            <div class="col-sm-4">
-              
-              <div class="card card-index" onclick="window.location.href = '{{ post.url }}';">
-                <div style="overflow: hidden;">
-                  <h4></h4> 
-                  <h4 style="float: left;">{{ post.title }} &nbsp;</h4> 
-                  <span class="tag is-primary is-light" style="clear: left">{{ post.categories}}</span>
-                </div>  
-                <div class="card-content">  
-                  {{ post.excerpt }}
-                  <span class="subtle">{{ post.date | date_to_string }}</span>
-                </div>  
+        {% cycle 'add row' : '<div class="row">', "" %} 
+          <div class="col-lg-6 d-flex align-items-stretch">
+            <div class="card card-article" onclick="window.location.href = '{{ post.url }}';">
+              <div class="card-body"> 
+                <h2>{{ post.title }}</h2>  
+                <span class="tag is-primary is-light">{{ post.categories}}</span>
+                {{ post.excerpt }}
+                <span class="subtle">{{ post.date | date_to_string }}</span>
               </div>
-              <div class="on-hover-show marquee">
-                    Read Article.
-              </div>
-            </div>
-        {% cycle 'end row' : "", "", '</div>' %}
+            </div>  
+          </div>
+        {% cycle 'end row' : "", '</div>' %}
     {% endfor %}
   </div>
+</div>

@@ -28,6 +28,7 @@ group :jekyll_plugins do
   # gem "nokogiri"
   # gem 'jekyll-watch'
   # gem 'jemoji'
+  # gem 'hawkins'
 
 end
 

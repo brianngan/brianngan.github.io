@@ -1,29 +1,43 @@
-<!-- <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-      } else {
-        document.getElementById("navbar").style.top = "-120px";
-      }
-      prevScrollpos = currentScrollPos;
-    }
-</script> -->
+<script>
+const cursor = document.querySelector('#cursor');
+let mouse = { x: 300, y: 300 };
+let pos = { x: 0, y: 0 };
+const speed = 0.1; // between 0 and 1
+
+const updatePosition = () => {
+  pos.x += (mouse.x - pos.x) * speed;
+  pos.y += (mouse.y - pos.y) * speed;
+  cursor.style.transform = 'translate3d(' + pos.x + 'px ,' + pos.y + 'px, 0)';
+};
+
+const updateCoordinates = e => {
+  mouse.x = e.clientX;
+  mouse.y = e.clientY;
+}
+
+window.addEventListener('mousemove', updateCoordinates);
+
+function loop() {
+  updatePosition();
+  requestAnimationFrame(loop);
+}
+
+requestAnimationFrame(loop);
+</script>
 
 <script>
-var coll = document.getElementsByClassName("navbar-mobile-btn");
-var i;
+// Get the container element
+var btnContainer = document.getElementById("myDIV");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";  
-    }
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("nav-tab");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "");
+    this.className += " active";
   });
 }
 </script>
@@ -40,7 +54,6 @@ for (i = 0; i < coll.length; i++) {
   // disableMutationObserver: false, // disables automatic mutations' detections (advanced)
   // debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
   // throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 100, // offset (in px) from the original trigger point
@@ -50,6 +63,5 @@ for (i = 0; i < coll.length; i++) {
   once: false, // whether animation should happen only once - while scrolling down
   mirror: true, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
 });
 </script>
