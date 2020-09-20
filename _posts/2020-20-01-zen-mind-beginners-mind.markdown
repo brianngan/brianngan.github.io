@@ -1,10 +1,10 @@
 ---
 layout: posts
-title:  Zen Mind, Beginner's Mind
-date:   2019-07-13 19:58:45 +0800
+title: Zen Mind, Beginner's Mind
+date: 2019-09-03 19:58:45 +0800
 categories: zen
----
 
+---
 For Zen students, the most important thing is not to be dualistic. Our "original mind" includes everything within itself. You should not lose your self-sufficient state of mind. this does not mean a closed mind, but actually an empty mind and a ready mind. If your mind is empty, it is always ready for anything, it is open to everything.. In the beginner's mind, there are many possibilities; in the expert's mind, there are few.
 
 # Prologue
