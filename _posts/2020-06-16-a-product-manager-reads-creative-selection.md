@@ -1,5 +1,5 @@
 ---
-date: 2020-06-16 22:20:39 +0800
+date: 2020-08-20 22:20:39 +0800
 tags: []
 layout: posts
 title: A Product Manager Reads Creative Selection
