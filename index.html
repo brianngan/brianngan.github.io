@@ -7,7 +7,7 @@ title: Brian Ngan
     <span class="subtle mx-2">filter:</span>
   </div>
   <div class="row" style="height:4px"></div>
-  <div class="row" id="articles myDIV">
+  <div class="row" id="myDIV">
     <script type="text/javascript">
       function filterUsingCategory(selectedCategory) {
         var id = 0;
@@ -34,7 +34,6 @@ title: Brian Ngan
   <div class="row">
     {% assign id = 0 %}
     {% for post in site.posts %}
-    {% unless post.categories contains 'portfolio' %}
       {% cycle 'add row' : '<div class="row">', '' %} 
         {% assign id = id | plus:1 %}
           <div class="col-lg-6 d-flex align-items-stretch">
@@ -49,7 +48,6 @@ title: Brian Ngan
       {% cycle 'end row' : '', '</div>' %}
       {% else %}
       {% continue %}
-    {% endunless %}
     {% endfor %}
   </div>
 </div>

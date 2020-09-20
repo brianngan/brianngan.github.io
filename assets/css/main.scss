@@ -15,6 +15,13 @@
 ::-moz-selection { background-color: #FFA; }
 ::selection { background-color: #FFA; }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+}
+
 button.nav-tab {
   background-color: white;
   border-right-style: none;
@@ -137,7 +144,7 @@ input.form-control {
   border-color: #999999;
   border-width: 4px;
   border-radius: 0px;
-  width: 100px;
+  // width: 80%;
   transition: ease-in-out, width .35s ease-in-out;
 }
 
@@ -145,5 +152,25 @@ input.form-control:focus {
   border-color: #000;
   border-width: 4px;
   border-radius: 0px;
-  width: 250px;
+  color: $body-color;
+  font-weight: bold;
+  // width: 80%;
 }
+
+textarea.form-control {
+  border-color: #999999;
+  border-width: 4px;
+  border-radius: 0px;
+  // width: 80%;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+textarea.form-control:focus {
+  border-color: #000;
+  border-width: 4px;
+  border-radius: 0px;
+  color: $body-color;
+  font-weight: bold;
+  // width: 80%;
+}
+
