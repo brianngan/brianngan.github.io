@@ -23,3 +23,5 @@ Here's the anecdote from the book:
 > Marriage, honesty, and loyalty were symbols of the society that Louverture aspired to lead—and he programmed them all into his culture with one simple shocking rule.
 
 Read: [link](https://a16z.com/book/whatyoudo/)
+
+![](https://media.giphy.com/media/RlxIwZzx34TJmDgznK/giphy-downsized-large.gif)
