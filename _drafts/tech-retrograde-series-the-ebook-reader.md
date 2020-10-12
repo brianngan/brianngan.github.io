@@ -2,7 +2,7 @@
 date: 2020-10-12 17:10:03 +0800
 tags: []
 layout: posts
-title: 'Tech Retrograde Series: The Ebook Reader'
+title: 'Modern Vintage: The Ebook Reader'
 categories: ''
 
 ---
@@ -12,11 +12,12 @@ I find it appealing
 
 What does this tell me?
 
-An ebook is the antithesis of the phone. 
+An ebook is the antithesis of the phone:
 
-* Single task vs Scattered multitude 
+* Singular Activity vs Easy Task-Switching
 * Simple Content vs Rich Content
 * Slow vs Fast
-* 
+
+Why it works.
 
 ![](/uploads/ecjnz0gu4aew1hy.jpg)
