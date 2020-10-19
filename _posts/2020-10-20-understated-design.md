@@ -32,7 +32,7 @@ Here are some websites that do it well:
 
 ![](/uploads/image-3.png)
 
-### Supernote
+### Supernote A6X UI
 
 [https://supernote.com/](https://supernote.com/#/service/instruction "https://supernote.com/#/service/instruction")
 
