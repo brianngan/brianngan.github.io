@@ -8,9 +8,11 @@ categories: ''
 ---
 We inherit the designs of our time. For most designers in the here and now, we are, _whether we claim to be conscious of it or not_, complicit in propagating the designs of our time. 
 
-These designs is a mix of the styles of contemporary tech companies (Airbnb, Apple, Slack, Invision, etc.), of popular frontend frameworks (Material UI, Bootstrap, iOS, etc.) and of UI trends (3D, Hand-drawn, Big Type seen on Behance or Dribbble).
+These designs is a mix of the styles of contemporary tech companies (Airbnb, Apple, Slack, Invision), of popular frontend frameworks (Material UI, Bootstrap, iOS) and of UI trends (as seen on Behance or Dribbble).
 
-I have an alternative that I have really come to like (This website follows this alternative), which is to design by subtraction. Nested in our day-to-day design decisions are a lot of blind assumptions and prescribed rules. By challenging these assumptions or rules, it opens up an opportunity to subtract and simplify. These are some websites that do it well:
+I have an alternative that I have come to like (this website follows the approach), which is to design by subtraction. Nested in our day-to-day design decisions are a lot of blind assumptions and prescribed rules. You could challenge these assumptions or rules. For example, "Why do I have a jumbotron on all my home pages?", "Why must buttons be the primary cta colour?" and so on. These challenges to the default open up opportunities to subtract and simplify. 
+
+Here are some websites that do it well:
 
 ### Comma.ai
 
