@@ -6,6 +6,8 @@ title: 'Understated Design: Minimal UI'
 categories: ''
 
 ---
-I think we all inherit the designs of our time. For most designers in the here and now, we are, conscious of it or not, complicit in propagating the designs of our time. These designs would approximate to the styles of major tech companies (Airbnb, Apple, Slack, Invision, etc.), of major frontend frameworks (Material UI, Bootstrap, 
+We all inherit the designs of our time. For most designers in the here and now, we are, conscious of it or not, complicit in propagating the designs of our time. 
+
+These designs would approximate to the styles of major tech companies (Airbnb, Apple, Slack, Invision, etc.), of major frontend frameworks (Material UI, Bootstrap, iOS, etc.) and of seasonal UI trends (
 
 ![](/uploads/image-1.png)![](/uploads/image-3.png)![](/uploads/image-5.png)![](/uploads/image-6.png)![](/uploads/image-7.png)
