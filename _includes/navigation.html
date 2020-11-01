@@ -4,7 +4,7 @@
     <div>
       <ul class="nav nav-menu">
         {% for nav in site.data.navigation %}
-          <li {% if nav.url == page.url %} class=""{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
+          <li {% if nav.url == page.url %} class="nav-link"{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
         {% endfor %}
         <li class="nav-link">
           <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
@@ -18,7 +18,7 @@
 <div class="mobile-show  col-12">
   <ul class="nav nav-menu-mobile">
     {% for nav in site.data.navigation %}
-      <li {% if nav.url == page.url %} class="active"{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
+      <li {% if nav.url == page.url %} class="nav-link"{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
     {% endfor %}
     <li class="nav-link">
       <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>

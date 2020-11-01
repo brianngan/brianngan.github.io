@@ -98,9 +98,14 @@ img{
   }
 }
 
+section.smoothscroll{
+  scroll-behavior: smooth;
+}
+
 html {
   cursor:url("/assets/cursor.svg"),auto;
-  scroll-behavior: smooth;
+
+
   &:active {
   cursor:url("/assets/cursor-1.svg"),auto;
   }
