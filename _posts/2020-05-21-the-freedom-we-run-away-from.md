@@ -4,7 +4,7 @@ layout: posts
 title: The Freedom We Run Away From
 categories: philosophy
 tags: []
-
+toc: true
 ---
 We are condemned to be free. Because once you are thrown into the world, you are responsible for all that you do. Jean-Paul Sartre describes us as radically free. Free to choose from a dizzying array of options at every turn. Even while there are things that are inherently outside of our control, we are free. We are free to at least choose how to react to what has been done to us.
 

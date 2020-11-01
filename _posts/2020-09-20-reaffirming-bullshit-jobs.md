@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'Reaffirming: Bullshit Jobs'
 categories: philosophy
-
+toc: true
 ---
 **Bullshit Jobs** is an important book to me. It struck a chord with me when observing my work environment in marketing at the largest news organisation in Singapore. 
 

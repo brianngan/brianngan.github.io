@@ -4,7 +4,7 @@ layout: posts
 title: 'Daily UI: Sign Up'
 categories: portfolio
 tags: practice
-
+toc: true
 ---
 ![](/uploads/daily-ui-1-hero.png "Daily UI 1 Sign Up")
 

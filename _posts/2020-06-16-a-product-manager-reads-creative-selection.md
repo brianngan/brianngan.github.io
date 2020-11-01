@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: A Product Manager Reads Creative Selection
 categories: product
-
+toc: true
 ---
 Creative Selection describes Apple's product development process during the creation of Safari, Mail, iPhone and iPad. It was an approach that was characterised by prototype demos and feedback.
 

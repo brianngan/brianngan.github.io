@@ -3,7 +3,7 @@ date: 2020-03-31T00:30:59.000+00:00
 layout: posts
 title: 'An introduction to Zen Buddhism: D. T. Suzuki'
 categories: zen
-
+toc: true
 ---
 What I like about the Zen practice is that it brings attention to something that is always there - the free, quiet and sufficient mind. In today's busy, complex and anxiety-inducing landscape, Zen feels as relevant today as it did during its ancient origins.
 

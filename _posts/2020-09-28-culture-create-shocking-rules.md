@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'Culture: Create Shocking Rules'
 categories: product
-
+toc: true
 ---
 One of the more profound examples of second-order thinking comes from Ben Horowitz. In his book, What You Do Is Who You Are, he describes the use of a shocking rule to provokes his men into raising a "Why?" to instil a culture.
 

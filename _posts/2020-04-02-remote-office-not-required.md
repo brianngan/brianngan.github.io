@@ -3,7 +3,7 @@ date: 2020-04-02 01:06:50 +0800
 layout: posts
 title: 'Remote: Office Not Required'
 categories: product
-
+toc: true
 ---
 Right now, as COVID changes the way we work, it's the ideal time to relook the ideas in the book. I found three ideas in the book to be particularly meaningful:
 

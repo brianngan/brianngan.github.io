@@ -3,7 +3,7 @@ layout: posts
 title: A Monk’s Guide to a Clean House and Mind
 date: 2019-07-13T11:58:45.000+00:00
 categories: zen
-
+toc: true
 ---
 Why monks are so fastidious and disciplined when it comes to doing chores. Because this mindset turns mundane routine tasks into daily invitations to be mindful and grateful.
 

@@ -5,7 +5,7 @@ tags:
 layout: posts
 title: 'Genie: COVID-19 Auto Financial Loan Scheme'
 categories: portfolio
-
+toc: true
 ---
 ![](/uploads/genie-covid.png)
 

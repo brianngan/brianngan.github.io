@@ -3,7 +3,7 @@ date: 2020-04-21 23:51:50 +0800
 layout: posts
 title: 'Reflecting on: This Is Water'
 categories: philosophy
-
+toc: true
 ---
 In the speech titled This Is Water, David Foster Wallace suggests a nascent idea of what the point of it all is:
 

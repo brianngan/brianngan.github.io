@@ -4,6 +4,7 @@ layout: posts
 title: 'Daily UI: Landing Page'
 categories: portfolio
 tags: practice
+toc: true
 ---
 ![](/uploads/landing-pages-preview-1.png)
 

@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'Understated Design: Substraction'
 categories: ux-design
-
+toc: true
 ---
 We inherit the designs of our time. For most designers in the here and now, we are, _whether we claim to be conscious of it or not_, complicit in propagating the designs of our time.
 

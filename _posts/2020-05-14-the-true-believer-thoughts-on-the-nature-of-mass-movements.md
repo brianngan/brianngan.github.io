@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'The True Believer: Thoughts On The Nature Of Mass Movements'
 categories: philosophy
-
+toc: true
 ---
 Readers have two ways of interpreting the book. The kind interpretation is that the book warns readers of the cyclical nature of social revolutions, religious movements and nationalist movements; warning readers that the prerequisites of mass movements are always there. The less kind interpretation is that the book provides a play-by-play for creating your first cult.
 

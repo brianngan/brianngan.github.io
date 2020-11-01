@@ -4,6 +4,7 @@ layout: posts
 title: 'Hypocognition: Missing The Words'
 categories: self
 
+toc: true
 ---
 A lot of life is about understanding and representing the real world. Words play a critical role in helping us to both _internalise_ and _socialise_ the ideas in our heads. We describe discrete objects with nouns, interactions with verbs, relationships with adjectives and so on.
 

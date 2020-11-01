@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'Taste: A Concept at Work Nobody Talks About'
 categories: product
-
+toc: true
 ---
 In the workplace, **taste** is an unspoken concept that underpins all business decisions. Words, in the form of explanations and design rationales, only go so far in capturing the thought processes behind the idea or approval. The rest is up to the employee's or the manager's sense of taste. 
 

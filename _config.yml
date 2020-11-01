@@ -40,12 +40,26 @@ plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-include-cache
-# - liquid_reading_time
+- jekyll-toc
+- liquid_reading_time
 # - nokogiri
 # - jekyll-watch
 # - jemoji
 # - jekyll-tagging
 
+toc:
+  # Default is "section-nav":
+  list_class: nav
+  # Default is no class for sublists:
+  sublist_class: nav-link
+  # Default is "toc-entry":
+  item_class: nav-link
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
   
 permalink: /:categories/:title:output_ext
 paginate_path: "/blog/page:num/"
@@ -75,3 +89,5 @@ exclude:
   # - _sass/bootstrap-4.0.0
   # - _posts
   # - uploads
+
+github: [metadata]

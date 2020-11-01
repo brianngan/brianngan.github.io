@@ -22,27 +22,6 @@ button:focus {
   outline: none !important;
 }
 
-button.nav-tab {
-  background-color: white;
-  border-right-style: none;
-  border-left-style: none;
-  border-top-style: none;
-  border-bottom-width: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 8px;
-  margin-right: 8px;
-
-  &.active{
-    border-bottom: 8px;
-    border-bottom-width: 4px;
-  }
-  
-  &:focus{
-    outline: 0px;
-  }
-}
-
 /* Define breakpoints and font sizes */
 @include media-breakpoint-down(sm) {
   div.card-body {
@@ -72,6 +51,9 @@ button.nav-tab {
   
  }
 
+p{
+  margin-top: 0px;
+}
 
 div.card.card-article{
   border-width: 4px;

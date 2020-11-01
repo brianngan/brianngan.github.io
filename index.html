@@ -39,7 +39,7 @@ title: Brian Ngan
           <div class="col-lg-6 d-flex align-items-stretch">
             <div class="card card-article" id="{{id}}" onclick="window.location.href = '{{ post.url }}';">
               <div class="card-body">
-                <h2>{{ post.title }}</h2> 
+                <h2 class="no_toc">{{ post.title }}</h2> 
                 <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
                 {{ post.excerpt }}
               </div>  

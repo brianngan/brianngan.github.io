@@ -4,7 +4,7 @@ posts: ''
 title: The SEO Game
 categories: product
 layout: posts
-
+toc: true
 ---
 Be me. Took part in the SEO Game.
 

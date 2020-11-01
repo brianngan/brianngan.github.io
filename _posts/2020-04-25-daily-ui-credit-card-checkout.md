@@ -4,7 +4,7 @@ layout: posts
 title: 'Daily UI: Credit Card Checkout'
 categories: portfolio
 tags: practice
-
+toc: true
 ---
 ![](/uploads/checkout-preview-3-1.png)
 

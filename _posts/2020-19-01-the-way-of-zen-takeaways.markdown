@@ -3,7 +3,7 @@ layout: posts
 title: The Way Of Zen
 date: 2020-02-20 16:00:00 +0000
 categories: zen
-
+toc: true
 ---
 This book has three great ideas that have changed my thinking:
 

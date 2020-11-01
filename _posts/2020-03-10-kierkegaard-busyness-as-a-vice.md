@@ -4,7 +4,7 @@ posts: ''
 title: 'Kierkegaard: Busyness As A Vice'
 categories: self
 layout: posts
-
+toc: true
 ---
 A reminder on busyness and existence:
 

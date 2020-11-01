@@ -4,7 +4,7 @@ tags: []
 layout: posts
 title: 'How To Do Better Retrospectives? '
 categories: product
-
+toc: true
 ---
 I hate Retrospectives. It’s an expensive and time-wasting meeting. I don't see real problems being aired and addressed. Rather, I see a lot of self-promotion and a pinch of git-blames going around. 
 

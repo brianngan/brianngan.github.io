@@ -24,7 +24,8 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate'
   gem "jekyll-include-cache"
-  # gem "liquid_reading_time"
+  gem 'jekyll-toc'
+  gem "liquid_reading_time"
   # gem "nokogiri"
   # gem 'jekyll-watch'
   # gem 'jemoji'

@@ -3,7 +3,7 @@ layout: posts
 title: What is Good UI Design?
 date: 2020-05-21 19:00:45 +0800
 categories: ux-design
-
+toc: true
 ---
 When thinking about whether user interaction is good, it helps to keep in mind:
 

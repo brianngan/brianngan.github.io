@@ -4,7 +4,7 @@ layout: posts
 title: 'Daily UI: App Icon'
 categories: portfolio
 tags: practice
-
+toc: true
 ---
 ![](/uploads/Frame 7.png)
 
