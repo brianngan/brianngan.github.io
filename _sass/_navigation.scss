@@ -24,6 +24,11 @@ div.mobile-hide.container{
   }
 }
 
+.nav-tab{
+  font-size: 16px;
+  font-weight: bold;
+}
+
 div.mobile-show{
   & ul.nav{
     padding: 0px;
@@ -47,6 +52,7 @@ div.nav-line{
   width: 10%;
   & hr{
     border-color: $primary;
+    border-width: 4px;
   }
 }
 
