@@ -13,7 +13,8 @@
       <div class="nav-line">
         <hr>
       </div>
-      {% toc %}
+      <!-- {% toc %} -->
+      {% include toc.html html=content %}
     </div>
   </div> 
 </div>
@@ -32,7 +33,7 @@
   <button class="btn btn-toc" onclick="showTableOfContent()">show table of content:</button>
 
 <div style="display:none" id="tableOfContent">
-  {% toc %}
+  <!-- {% toc %} -->
 </div>
 </div>
 <div class="mobile-show col-12" style="height:32px"></div> 

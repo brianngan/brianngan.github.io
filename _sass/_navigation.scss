@@ -49,16 +49,38 @@ div.mobile-show{
 }
 
 div.nav-line{
+  & ul{
+    padding: 0px;
+    display:block;
+    }
+
+    & li {
+      list-style: none;
+      padding-right: 0px;
+      width: fit-content;
+      font-size: 16px;
+      font-weight: bold;
+      height: 100%;
+      padding: 8px 0px 8px,
+    }
+}
+
+div.nav-line-mobile ul {
+  padding: 0px;
+  display: inline;
+  & li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 0px 4px;
+  }
+}
+
+div.nav-line{
   width: 10%;
   & hr{
     border-color: $primary;
     border-width: 4px;
-  }
-}
-
-ul.nav{
-  & li.nav-link{
-
   }
 }
 

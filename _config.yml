@@ -40,7 +40,6 @@ plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-include-cache
-- jekyll-toc
 - liquid_reading_time
 # - nokogiri
 # - jekyll-watch

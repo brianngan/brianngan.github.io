@@ -10,6 +10,10 @@
           <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
         </li>
       </ul>
+      <div class="nav-line">
+        <hr>
+        {% include toc.html html=content %}
+      </div>
     </div>
   </div> 
 </div>
@@ -24,5 +28,12 @@
       <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
     </li>
   </ul>
+  <div class="mobile-show col-12" style="height:16px"></div> 
+  <div class="container pl-0">
+    <button class="btn btn-toc" onclick="showTableOfContent()">show table of content:</button>
+  </div>
+  <div class="nav-line-mobile container" style="display:none" id="tableOfContent">
+    {% include toc.html html=content %}
+  </div>
+  <div class="mobile-show col-12" style="height:32px"></div> 
 </div>
-<div class="mobile-show col-12" style="height:32px"></div> 
