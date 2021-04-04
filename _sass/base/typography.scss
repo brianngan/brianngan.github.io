@@ -13,6 +13,7 @@ body, p{
     font-family: $font-stack !important;
     color: $primary;
     font-weight: 600;
+    font-size: 1em;
 }
 
 h1{
@@ -49,12 +50,17 @@ div.toc ul li a{
     font-weight: 600;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
+    
+    html{
+        font-size: 42px;
+    }
+
     div.toc ul li a{
-        font-size: 12px;
+        font-size: 28px;
+    }
+
+    a.nav-link{
+        font-size: 28px;
     }
 }
-
-
-
-// div.post 

@@ -14,11 +14,3 @@ a.nav-link{
     color: $primary;
   }
 }
-
-
-@media (max-width: 1200px) {
-  a.nav-link{
-    padding: 8px;
-    font-size: 21px;
-    }
-}
