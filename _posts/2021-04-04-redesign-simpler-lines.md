@@ -6,13 +6,19 @@ title: 'Redesign: Simpler Lines'
 categories: ux-design
 
 ---
-I have always been inspired by simple and focused experiences ([post on understated design]()) and today I present my take on the minimal website.
+I have always been inspired by simple and focused experiences ([my post on understated design]()) and today I present my take on the minimal website.
 
 Also, I came across a few design and tech challenges. Here are a few learnings:
 
-### Designing in monochrome
+### Designing in black and white
 
-Since colours are non-existent, there are three remaining ways to draw attention: (1) emphasis, (2) value and (3) expectation. I used bold text (1) and bordered lines (2) to define things that command attention. And lastly, I placed buttons where people expect them: on the bottom of components. This was the outcome:
+Since colours are non-existent, there are three remaining ways to draw attention: 
+
+1. emphasis, 
+2. value and 
+3. expectation. 
+
+I used bold text and bordered lines to define things that command attention. This means playing with text saturation and lines to frame things. And lastly, I placed buttons where people expect them: on the bottom of components. This was the outcome:
 
 ![](/uploads/redesign-1.png)
 
