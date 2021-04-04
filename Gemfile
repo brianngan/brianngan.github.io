@@ -16,15 +16,15 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+
   # gem 'bootstrap', '~> 4.4.1'
-  gem 'bootstrap-sass', '~> 3.4.1'
-  # gem 'jekyll-bootstrap-sass'
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-sitemap"
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate'
-  gem "jekyll-include-cache"
-  # gem "liquid_reading_time"
+  # gem 'bootstrap-sass', '~> 3.4.1'
+  # gem "jekyll-feed", "~> 0.6"
+  # gem "jekyll-sitemap"
+  # gem 'jekyll-redirect-from'
+  # gem 'jekyll-paginate'
+  # gem "jekyll-include-cache"
+  # # gem "liquid_reading_time"
   # gem "nokogiri"
   # gem 'jekyll-watch'
   # gem 'jemoji'

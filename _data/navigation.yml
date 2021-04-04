@@ -1,8 +1,8 @@
-- text: Articles
+- text: home
   url: /
 
-- text: Portfolio
+- text: portfolio
   url: /portfolio/
   
-- text: About
+- text: about
   url: /About.html

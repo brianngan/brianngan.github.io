@@ -1,0 +1,26 @@
+div.toc {
+  padding: 48px;
+}
+
+div.toc ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+div.toc ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+div.toc ul li a {
+  line-height: 1;
+}
+
+@media (max-width: 1200px) {
+  div.toc {
+    padding: 16px 16px 16px 16px;
+    
+  }
+  div.toc ul li:not(:last-child) {
+    margin-bottom: 2px;
+  }
+}

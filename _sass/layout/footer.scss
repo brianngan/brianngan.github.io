@@ -1,0 +1,11 @@
+footer.footer div.container-fluid {
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+}
+
+footer.footer div.container-fluid span {
+  color: $gray;
+  padding: 96px 0px 96px 0px;
+  height: 100vh;
+}
