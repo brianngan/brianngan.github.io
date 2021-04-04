@@ -1,0 +1,48 @@
+div.hero-post{
+  padding: 64px 48px 64px 0px !important;
+  border-bottom: 2px solid black !important;
+}
+
+div.post{
+  padding-top: 48px;
+}
+
+div.post p img {
+  width: 100%;
+}
+
+div.post p {
+  margin-bottom: 1.5em;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+div.post h2 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.1;
+}
+
+div.post h3 {
+  margin-top: 1.5em;
+  margin-top: 0.5em;
+  line-height: 1.45;
+}
+
+div.post p a {
+  text-decoration: none;
+}
+
+div.post p strong{
+  font-weight: 900;
+}
+
+@media (max-width: 1200px) {
+  div.hero-post{
+    padding: 48px 16px 48px 16px !important;
+    border-bottom: 2px solid black !important;
+  }
+  div.post{
+    padding: 16px;
+  }
+}

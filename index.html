@@ -1,56 +1,18 @@
 ---
-layout: main
 title: Brian Ngan
+layout: default
 ---
-<div class="container">
-  <div class="row mobile-show">    
-    <div class="nav-line mx-2">
-      <hr>
-    </div>
-    <span class="subtle mx-2">filter:</span>
-  </div>
-  <div class="row" style="height:4px"></div>
-  <div class="row" id="myDIV">
-    <script type="text/javascript">
-      function filterUsingCategory(selectedCategory) {
-        var id = 0;
-        {% for post in site.posts %}
-          var cats = {{ post.categories | jsonify }}
-
-          var postDiv = document.getElementById(++id);
-          postDiv.style.display = (selectedCategory == 'All' || cats.includes(selectedCategory)) 
-            ? 'unset' 
-            : 'none';
-        {% endfor %}
-      }
-    </script>
-    <a id="All" class="nav-tab mx-2" onclick="filterUsingCategory('All')">everything</a>
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
-      {% assign cat = category | first %}
-      {% unless cat contains 'portfolio' %}
-      <a id="{{ cat }}" class="nav-tab mx-2"  onclick="filterUsingCategory(this.id)">{{ cat }}</a>
-      {% endunless %}
-    {% endfor %}
-  </div>
-  <div class="row" style="height: 15px;"></div>
-  <div class="row">
-    {% assign id = 0 %}
-    {% for post in site.posts %}
-      {% cycle 'add row' : '<div class="row">', '' %} 
-        {% assign id = id | plus:1 %}
-          <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="card card-article" id="{{id}}" onclick="window.location.href = '{{ post.url }}';">
-              <div class="card-body">
-                <h2 class="no_toc">{{ post.title }}</h2> 
-                <span class="subtle">{{ post.categories }}  |  {{ post.date | date_to_string }}</span>
-                {{ post.excerpt }}
-              </div>  
-            </div>
-          </div>
-      {% cycle 'end row' : '', '</div>' %}
-      {% else %}
-      {% continue %}
-    {% endfor %}
-  </div>
-</div>
+{% assign id = 0 %}
+{% for post in site.posts %}
+{% assign id = id | plus:1 %}
+{% capture thecycle %}{% cycle 'first', 'last' %}{% endcapture %}
+{% if thecycle == 'first' %}
+<div class="container-fluid">
+<div class="row">
+{% include post-snippet.html %}
+{% elsif thecycle == 'last' %}
+{% include post-snippet.html %}
+</div></div>
+{% else %}
+{% endif %}
+{% endfor %}

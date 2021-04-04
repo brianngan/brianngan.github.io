@@ -1,23 +1,17 @@
 ---
-layout: main
-title: Brian Ngan
+title: portfolio
+layout: default
 ---
-<div class="row" id="portfolio">
-  <div class="container">
-    {% assign portfolio = site.posts | where_exp: "post", "post.categories contains 'portfolio'" %}
-    {% for post in portfolio %}
-        {% cycle 'add row' : '<div class="row">', "" %} 
-          <div class="col-lg-6 d-flex align-items-stretch">
-            <div class="card card-article" onclick="window.location.href = '{{ post.url }}';">
-              <div class="card-body"> 
-                <h2 class="no_toc">{{ post.title }}</h2>  
-                <span class="tag is-primary is-light">{{ post.categories}}</span>
-                {{ post.excerpt }}
-                <span class="subtle">{{ post.date | date_to_string }}</span>
-              </div>
-            </div>  
-          </div>
-        {% cycle 'end row' : "", '</div>' %}
-    {% endfor %}
-  </div>
+
+{% assign sorted-posts = site.posts | where: "categories",{{page.title}} %}
+{% for post in sorted-posts %}
+{% capture thecycle %}{% cycle 'first', 'last' %}{% endcapture %}
+{% if thecycle == 'first' %}
+<div class="row">
+{% include post-snippet.html %}
+{% elsif thecycle == 'last' %}
+{% include post-snippet.html %}
 </div>
+{% else %}
+{% endif %}
+{% endfor %}

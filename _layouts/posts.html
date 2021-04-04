@@ -1,22 +1,25 @@
 <!doctype html>
-<html>
-  {% include head.html %}
-  <body class="dragscroll">
-    {% include cursor.html %}
-    <section class="section">
-      {% include header-sub-page.html %}
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="400">
-        <div class="row">
-          {% include navigation.html %}					
-          <div class="post col-xl-6 col-md-8 col-xs-12" >
-            {{ content }}
-  
-					</div>
-				</div>
-			</div>
-    </section>
-    
+<html lang="en">
+    {% include head.html %} 
+  <body>
+    {% include navigation.html %}
+    <div class="row hero-post">
+      <div class="offset-lg-4 col-lg-8">
+        <div class="container-fluid">
+          <h1>{{ page.title | downcase }}</h1>
+        </div>
+      </div>
+    </div>
+  <div class="container-fluid">    
+    <div class="row">
+      <div class="col-lg-4 toc">
+        {% include table-of-content.html html=content %}
+      </div>
+      <div class="col-lg-4 post">
+        {{ content }}
+        </div>     
+      </div>
+    </div>
     {% include footer.html %}
-    {% include javascript.html %}
   </body>
 </html>

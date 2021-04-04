@@ -1,39 +1,14 @@
-<!-- Desktop -->
-<div class="mobile-hide  col-xl-2 col-md-4 d-flex align-items-stretch">
-  <div class="mobile-hide container" id="sticky">
-    <div>
-      <ul class="nav nav-menu">
-        {% for nav in site.data.navigation %}
-          <li {% if nav.url == page.url %} class="nav-link"{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
-        {% endfor %}
-        <li class="nav-link">
-          <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
-        </li>
-      </ul>
-      <div class="nav-line">
-        <hr>
-        {% include toc.html html=content %}
-      </div>
-    </div>
-  </div> 
-</div>
+<ul class="nav justify-content-end">
+  {% for i in site.data.navigation %}
+  <li class="nav-item">
+    <a class="nav-link" href="{{ site.baseurl }}{{ i.url }}">{{ i.text | downcase }}</a>
+  </li>
+  {% endfor %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/brianngan">github</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://dribbble.com/bngan">dribbble</a>
+  </li>
+</ul>
 
-<!-- Mobile -->
-<div class="mobile-show  col-12">
-  <ul class="nav nav-menu-mobile">
-    {% for nav in site.data.navigation %}
-      <li {% if nav.url == page.url %} class="nav-link"{% endif %} class="nav-link"><a href="{{ nav.url }}">{{ nav.text | downcase }}</a></li>
-    {% endfor %}
-    <li class="nav-link">
-      <a href="https://github.com/brianngan/brianngan.github.io" target="_blank">github</a>
-    </li>
-  </ul>
-  <div class="mobile-show col-12" style="height:16px"></div> 
-  <div class="container pl-0">
-    <button class="btn btn-toc" onclick="showTableOfContent()">show table of content:</button>
-  </div>
-  <div class="nav-line-mobile container" style="display:none" id="tableOfContent">
-    {% include toc.html html=content %}
-  </div>
-  <div class="mobile-show col-12" style="height:32px"></div> 
-</div>

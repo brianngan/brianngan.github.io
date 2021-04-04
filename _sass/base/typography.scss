@@ -1,0 +1,60 @@
+@import "colours.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+$font-stack: 'Inconsolata', monospace;
+$enable-responsive-font-sizes: true;
+
+html{
+    font-size: 21px;
+    color: $primary;
+}
+
+body, p{ 
+    font-family: $font-stack !important;
+    color: $primary;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2.post-snippet-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+div.post-snippet-caption{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: $gray;
+}
+
+a.nav-link{
+    font-size: 1rem;
+    color: $primary;
+    font-weight: 600;
+}
+
+div.post-snippet-link a{
+      color: $primary;
+      text-decoration: none;
+      font-weight: 600;
+}
+
+div.toc ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    div.toc ul li a{
+        font-size: 12px;
+    }
+}
+
+
+
+// div.post 

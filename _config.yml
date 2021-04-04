@@ -30,16 +30,14 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 require:
-  bootstrap-sass
   jekyll-tagging
 
 plugins:
-- bootstrap-sass
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-redirect-from
 - jekyll-paginate
-- jekyll-include-cache
+# - jekyll-include-cache
 - liquid_reading_time
 # - nokogiri
 # - jekyll-watch
@@ -69,8 +67,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
-bootstrap:
-  assets: true
+# bootstrap:
+#   assets: true
 
 incremental: true
 
