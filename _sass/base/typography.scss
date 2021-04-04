@@ -38,6 +38,11 @@ a.nav-link{
     font-weight: 600;
 }
 
+div.excerpt p a{
+    color: $primary;
+    text-decoration: none;
+}
+
 div.post-snippet-link a{
       color: $primary;
       text-decoration: none;
@@ -46,7 +51,7 @@ div.post-snippet-link a{
 
 div.toc ul li a{
     text-decoration: none;
-    color: black;
+    color: $primary;
     font-weight: 600;
 }
 

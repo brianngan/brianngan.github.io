@@ -1,10 +1,12 @@
 <div class="col-lg-6 post-snippet" id="{{id}}">
   <div class="row excerpt">
-  <h2 class="post-snippet-title">
-    {{ post.title }}
-  </h2>  
-  {{ post.excerpt }} 
-</div>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <h2 class="post-snippet-title">
+        {{ post.title }}
+      </h2>  
+        {{ post.excerpt }} 
+    </a>
+  </div>
   <div class="container-fluid">
     <div class="row post-snippet-row">
       <div class="col-6 post-snippet-caption">

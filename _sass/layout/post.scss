@@ -31,6 +31,10 @@ div.post h3 {
 
 div.post p a {
   text-decoration: none;
+  color: #2527a5;
+  &:hover{
+    font-style: italic;
+  }
 }
 
 div.post p strong{
