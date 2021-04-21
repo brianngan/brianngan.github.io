@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background-color: #1c1a20;}
+=======
+    background-color: #272727;}
+>>>>>>> 2898a1b990d937d9ed4cb049c8c085f1373b01c1
 
 * {
     border-color: #6e6e6e !important;
@@ -14,9 +18,14 @@ div.dark-mode:hover{
 }
 
 #nav-bar {
+<<<<<<< HEAD
     background-color: #1c1a20 !important;
 }
 
 a.btn-post-snippet:hover {
       background-color: black;
 }
+=======
+    background-color: #272727 !important;
+}
+>>>>>>> 2898a1b990d937d9ed4cb049c8c085f1373b01c1
