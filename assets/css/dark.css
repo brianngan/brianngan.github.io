@@ -1,2 +1,22 @@
 body {
-    background-color: black;}
+    background-color: #1c1a20;}
+
+* {
+    border-color: #6e6e6e !important;
+    color: #ededed !important;
+}
+
+a.nav-link:hover {
+      background-color: black;
+    }
+div.dark-mode:hover{
+    background-color: black;
+}
+
+#nav-bar {
+    background-color: #1c1a20 !important;
+}
+
+a.btn-post-snippet:hover {
+      background-color: black;
+}

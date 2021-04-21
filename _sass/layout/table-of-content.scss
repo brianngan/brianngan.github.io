@@ -15,10 +15,27 @@ div.toc ul li a {
   line-height: 1;
 }
 
+.toc-mobile {
+  visibility: hidden;
+}
+
+
 @media (max-width: 1200px) {
+  .toc-mobile {
+    visibility: visible;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-weight: 600;
+    padding-bottom: 24px;
+  }
+
   div.toc {
-    padding: 16px 16px 16px 16px;
+    padding: 24px 24px 120px 24px;
     
+  }
+  div.toc ul {
+    border-left: 2px solid black;
+    padding-left: 16px;
   }
   div.toc ul li:not(:last-child) {
     margin-bottom: 2px;
