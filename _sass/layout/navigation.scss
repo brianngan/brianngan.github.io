@@ -7,10 +7,55 @@ li.nav-item{
 }
 
 a.nav-link{
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 500;
   &:hover {
     background-color: $gray-400;
     color: $primary;
   }
+}
+
+div.dark-mode{
+  padding: 0px 16px 4px 16px;
+  --dark-mode-toggle-dark-icon: url(/assets/sun-line.svg);
+  --dark-mode-toggle-light-icon: url(/assets/moon-line.svg);
+}
+
+.nav-tool-tip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.nav-tool-tip .tool-tip-text {
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+  visibility: hidden;
+  color: $primary;
+  text-align: center;
+  padding: 5px;
+  border-radius: 0px;
+  font-weight: 600;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.nav-tool-tip:hover .tool-tip-text {
+  visibility: visible;
+}
+
+
+#nav-bar {
+  position: fixed; /* Make it stick/fixed */
+  background-color: white;
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }

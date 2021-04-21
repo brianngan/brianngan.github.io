@@ -1,10 +1,12 @@
 div.container-fluid.hero{
-  padding: 48px 48px 384px 48px;
+  padding: 15vh 48px 384px 48px;
   border-bottom: 2px solid black;
 }
 
 @media (max-width: 1200px) {
   div.container-fluid.hero{
-    padding: 48px 16px 48px 16px;
+    padding: 20vh 16px 50vh 16px;
 }
+
+
 }

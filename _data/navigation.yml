@@ -1,8 +1,11 @@
 - text: home
+  image: <i class="ri-home-line"></i>
   url: /
 
 - text: portfolio
+  image: <i class="ri-pencil-ruler-line"></i>
   url: /portfolio.html
 
 - text: about
+  image: <i class="ri-contacts-line"></i>
   url: /about.html

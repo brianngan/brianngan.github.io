@@ -1,6 +1,6 @@
 div.hero-post{
-  padding: 64px 48px 64px 0px !important;
-  border-bottom: 2px solid black !important;
+  padding: 15vh 48px 20vh 0px;
+  border-bottom: 2px solid black;
 }
 
 div.post{
@@ -30,8 +30,8 @@ div.post h3 {
 }
 
 div.post p a {
-  text-decoration: none;
-  color: #2527a5;
+  text-decoration: underline;
+  color: $primary;
   &:hover{
     font-style: italic;
   }
@@ -43,8 +43,8 @@ div.post p strong{
 
 @media (max-width: 1200px) {
   div.hero-post{
-    padding: 48px 16px 48px 16px !important;
-    border-bottom: 2px solid black !important;
+    padding: 20vh 16px 30vh 16px;
+    border-bottom: 2px solid black;
   }
   div.post{
     padding: 16px;

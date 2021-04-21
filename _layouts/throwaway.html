@@ -4,16 +4,13 @@
   <body>
     {% include navigation.html %}
     <div class="container-fluid hero">
-      <div class="typewriter">
         <h1>{{ page.title | downcase }}</h1>
-      </div>
     </div>
-
     <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-4 left">
-      </div>
-      <div class="col-lg-8">  
+      <!-- <div class="col-lg-4 left">
+      </div> -->
+      <div class="col-lg-12">  
         {{ content }}
           </div>     
         </div>
@@ -23,5 +20,4 @@
     {% include footer.html %}
   </body>
   {% include js-scripts.html %}
-
 </html>
